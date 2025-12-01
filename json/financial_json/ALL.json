@@ -1,0 +1,93 @@
+{
+  "symbol": "ALL",
+  "name": "Allstate",
+  "cik": "0000899051",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 10962000000.0,
+      "net_income": 5576000000.0,
+      "interest_expense": 318000000.0,
+      "income_tax_expense": 1373000000.0,
+      "total_assets": 125987000000.0,
+      "total_liabilities": 95770000000.0,
+      "total_equity": 30217000000.0,
+      "ppe": 1057000000.0,
+      "goodwill": 2369000000.0,
+      "cfo": 5491000000.0,
+      "cfi": -3441000000.0,
+      "cff": -2011000000.0,
+      "capex": 308000000.0,
+      "share_repurchases": 1737000000.0
+    },
+    "2021": {
+      "revenue": 13011000000.0,
+      "net_income": 1614000000.0,
+      "interest_expense": 330000000.0,
+      "income_tax_expense": 1292000000.0,
+      "total_assets": 99440000000.0,
+      "total_liabilities": 74313000000.0,
+      "total_equity": 24944000000.0,
+      "ppe": 939000000.0,
+      "goodwill": 3502000000.0,
+      "cfo": 5116000000.0,
+      "cfi": 510000000.0,
+      "cff": -5240000000.0,
+      "capex": 345000000.0,
+      "share_repurchases": 3120000000.0
+    },
+    "2022": {
+      "revenue": 13648000000.0,
+      "net_income": -1289000000.0,
+      "interest_expense": 335000000.0,
+      "income_tax_expense": -488000000.0,
+      "total_assets": 97989000000.0,
+      "total_liabilities": 80626000000.0,
+      "total_equity": 17488000000.0,
+      "ppe": 987000000.0,
+      "goodwill": 3502000000.0,
+      "cfo": 5121000000.0,
+      "cfi": -1728000000.0,
+      "cff": -3420000000.0,
+      "capex": 420000000.0,
+      "share_repurchases": 2520000000.0
+    },
+    "2023": {
+      "revenue": 14832000000.0,
+      "net_income": -188000000.0,
+      "interest_expense": 379000000.0,
+      "income_tax_expense": -135000000.0,
+      "total_assets": 103362000000.0,
+      "total_liabilities": 85732000000.0,
+      "total_equity": 17770000000.0,
+      "ppe": 859000000.0,
+      "goodwill": 3502000000.0,
+      "cfo": 4228000000.0,
+      "cfi": -2999000000.0,
+      "cff": -1243000000.0,
+      "capex": 267000000.0,
+      "share_repurchases": 335000000.0
+    },
+    "2024": {
+      "revenue": 16506000000.0,
+      "net_income": 4667000000.0,
+      "income_tax_expense": 1162000000.0,
+      "total_assets": 111617000000.0,
+      "total_liabilities": 90250000000.0,
+      "total_equity": 21442000000.0,
+      "ppe": 669000000.0,
+      "goodwill": 3245000000.0,
+      "cfo": 8931000000.0,
+      "cfi": -8252000000.0,
+      "cff": -697000000.0,
+      "capex": 210000000.0,
+      "share_repurchases": 2000000.0
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "symbol": "PSA",
+  "name": "Public Storage",
+  "cik": "0001393311",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 2915068000.0,
+      "net_income": 1357213000.0,
+      "interest_expense": 56283000.0,
+      "total_assets": 11816546000.0,
+      "total_liabilities": 3239647000.0,
+      "total_equity": 8558867000.0,
+      "cash_and_equiv": 257560000.0,
+      "goodwill": 165843000.0,
+      "cfo": 2042902000.0,
+      "cfi": -1117714000.0,
+      "cff": -1075716000.0,
+      "depr_amort": 553257000.0
+    },
+    "2021": {
+      "revenue": 3415824000.0,
+      "net_income": 1953263000.0,
+      "interest_expense": 90774000.0,
+      "income_tax_expense": 12365000.0,
+      "total_assets": 17380908000.0,
+      "total_liabilities": 7957370000.0,
+      "total_equity": 9335177000.0,
+      "cash_and_equiv": 734599000.0,
+      "goodwill": 165843000.0,
+      "cfo": 2543555000.0,
+      "cfi": -5563511000.0,
+      "cff": 3498141000.0,
+      "depr_amort": 713428000.0
+    },
+    "2022": {
+      "revenue": 4182163000.0,
+      "net_income": 4349147000.0,
+      "interest_expense": 136319000.0,
+      "income_tax_expense": 14326000.0,
+      "total_assets": 17552307000.0,
+      "total_liabilities": 7385506000.0,
+      "total_equity": 10073402000.0,
+      "cash_and_equiv": 775253000.0,
+      "goodwill": 165843000.0,
+      "cfo": 3117141000.0,
+      "cfi": 1119996000.0,
+      "cff": -4193270000.0,
+      "depr_amort": 888146000.0,
+      "share_repurchases": 0.0
+    },
+    "2023": {
+      "revenue": 4517690000.0,
+      "net_income": 2148327000.0,
+      "interest_expense": 201132000.0,
+      "income_tax_expense": 10821000.0,
+      "total_assets": 19809216000.0,
+      "total_liabilities": 9702270000.0,
+      "total_equity": 10013178000.0,
+      "cash_and_equiv": 370002000.0,
+      "goodwill": 165843000.0,
+      "cfo": 3246648000.0,
+      "cfi": -3538502000.0,
+      "cff": -112928000.0,
+      "depr_amort": 970056000.0,
+      "share_repurchases": 0.0
+    },
+    "2024": {
+      "revenue": 4695616000.0,
+      "net_income": 2072011000.0,
+      "interest_expense": 287401000.0,
+      "income_tax_expense": 4669000.0,
+      "total_assets": 19754934000.0,
+      "total_liabilities": 9941282000.0,
+      "total_equity": 9712606000.0,
+      "cash_and_equiv": 447416000.0,
+      "goodwill": 165843000.0,
+      "cfo": 3128255000.0,
+      "cfi": -1002638000.0,
+      "cff": -2078576000.0,
+      "depr_amort": 1129766000.0,
+      "share_repurchases": 200000000.0
+    }
+  }
+}

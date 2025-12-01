@@ -1,0 +1,91 @@
+{
+  "symbol": "JPM",
+  "name": "JPMorgan Chase",
+  "cik": "0000019617",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 119951000000.0,
+      "net_income": 29131000000.0,
+      "interest_expense": 9960000000.0,
+      "income_tax_expense": 6684000000.0,
+      "total_assets": 3384757000000.0,
+      "total_liabilities": 3105403000000.0,
+      "total_equity": 279354000000.0,
+      "ppe": 27109000000.0,
+      "goodwill": 49248000000.0,
+      "cfo": -79910000000.0,
+      "cfi": -261912000000.0,
+      "cff": 596645000000.0,
+      "dividends": 12690000000.0,
+      "share_repurchases": 6517000000.0
+    },
+    "2021": {
+      "revenue": 121649000000.0,
+      "net_income": 48334000000.0,
+      "interest_expense": 5553000000.0,
+      "income_tax_expense": 11228000000.0,
+      "total_assets": 3743567000000.0,
+      "total_liabilities": 3449440000000.0,
+      "total_equity": 294127000000.0,
+      "ppe": 27070000000.0,
+      "goodwill": 50315000000.0,
+      "cfo": 78084000000.0,
+      "cfi": -129344000000.0,
+      "cff": 275993000000.0,
+      "dividends": 12858000000.0,
+      "share_repurchases": 18408000000.0
+    },
+    "2022": {
+      "revenue": 128695000000.0,
+      "net_income": 37676000000.0,
+      "interest_expense": 26097000000.0,
+      "income_tax_expense": 8490000000.0,
+      "total_assets": 3665743000000.0,
+      "total_liabilities": 3373411000000.0,
+      "total_equity": 292332000000.0,
+      "ppe": 27734000000.0,
+      "goodwill": 51662000000.0,
+      "cfo": 107119000000.0,
+      "cfi": -137819000000.0,
+      "cff": -126257000000.0,
+      "dividends": 13562000000.0,
+      "share_repurchases": 3162000000.0
+    },
+    "2023": {
+      "revenue": 158104000000.0,
+      "net_income": 49552000000.0,
+      "interest_expense": 81321000000.0,
+      "income_tax_expense": 12060000000.0,
+      "total_assets": 3875393000000.0,
+      "total_liabilities": 3547515000000.0,
+      "total_equity": 327878000000.0,
+      "goodwill": 52634000000.0,
+      "cfo": 12974000000.0,
+      "cfi": 67643000000.0,
+      "cff": -25571000000.0,
+      "dividends": 13463000000.0,
+      "share_repurchases": 9824000000.0
+    },
+    "2024": {
+      "revenue": 177556000000.0,
+      "net_income": 58471000000.0,
+      "income_tax_expense": 16610000000.0,
+      "total_assets": 4002814000000.0,
+      "total_liabilities": 3658056000000.0,
+      "total_equity": 344758000000.0,
+      "goodwill": 52565000000.0,
+      "cfo": -42012000000.0,
+      "cfi": -163403000000.0,
+      "cff": 63447000000.0,
+      "dividends": 14783000000.0,
+      "share_repurchases": 18830000000.0
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "symbol": "ACGL",
+  "name": "Arch Capital Group",
+  "cik": "0000947484",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 8508509000.0,
+      "net_income": 543544000.0,
+      "interest_expense": 143456000.0,
+      "income_tax_expense": 111838000.0,
+      "total_assets": 43282297000.0,
+      "total_liabilities": 29294856000.0,
+      "total_equity": 13105886000.0,
+      "cash_and_equiv": 906448000.0,
+      "goodwill": 314629000.0,
+      "cfo": 2886505000.0,
+      "cfi": -3043226000.0,
+      "cff": 521278000.0,
+      "share_repurchases": 83472000.0
+    },
+    "2021": {
+      "revenue": 9248000000.0,
+      "net_income": 2157000000.0,
+      "interest_expense": 139000000.0,
+      "income_tax_expense": 128000000.0,
+      "total_assets": 45101000000.0,
+      "total_liabilities": 31546000000.0,
+      "total_equity": 13546000000.0,
+      "cash_and_equiv": 859000000.0,
+      "goodwill": 345000000.0,
+      "cfo": 3425000000.0,
+      "cfi": -2138000000.0,
+      "cff": -1229000000.0,
+      "share_repurchases": 1234000000.0
+    },
+    "2022": {
+      "revenue": 9613000000.0,
+      "net_income": 1476000000.0,
+      "interest_expense": 131000000.0,
+      "income_tax_expense": 80000000.0,
+      "total_assets": 47990000000.0,
+      "total_liabilities": 35069000000.0,
+      "total_equity": 12910000000.0,
+      "cash_and_equiv": 855000000.0,
+      "goodwill": 342000000.0,
+      "cfo": 3816000000.0,
+      "cfi": -3101000000.0,
+      "cff": -706000000.0,
+      "share_repurchases": 586000000.0
+    },
+    "2023": {
+      "revenue": 13634000000.0,
+      "net_income": 4443000000.0,
+      "interest_expense": 133000000.0,
+      "income_tax_expense": -873000000.0,
+      "total_assets": 58906000000.0,
+      "total_liabilities": 40551000000.0,
+      "total_equity": 18353000000.0,
+      "cash_and_equiv": 917000000.0,
+      "goodwill": 345000000.0,
+      "cfo": 5749000000.0,
+      "cfi": -5468000000.0,
+      "cff": -69000000.0,
+      "share_repurchases": 0.0
+    },
+    "2024": {
+      "revenue": 17440000000.0,
+      "net_income": 4312000000.0,
+      "interest_expense": 141000000.0,
+      "income_tax_expense": 362000000.0,
+      "total_assets": 70906000000.0,
+      "total_liabilities": 50086000000.0,
+      "total_equity": 20820000000.0,
+      "cash_and_equiv": 979000000.0,
+      "goodwill": 571000000.0,
+      "cfo": 6673000000.0,
+      "cfi": -4461000000.0,
+      "cff": -1925000000.0,
+      "share_repurchases": 24000000.0
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "symbol": "ESS",
+  "name": "Essex Property Trust",
+  "cik": "0000920522",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 1495748000.0,
+      "operating_income": 491441000.0,
+      "interest_expense": 220633000.0,
+      "total_assets": 12936177000.0,
+      "total_liabilities": 6720746000.0,
+      "total_equity": 6000410000.0,
+      "cash_and_equiv": 73629000.0,
+      "cfo": 803108000.0,
+      "cfi": -416900000.0,
+      "cff": -383261000.0,
+      "share_repurchases": 269315000.0
+    },
+    "2021": {
+      "revenue": 1440556000.0,
+      "operating_income": 529995000.0,
+      "interest_expense": 203125000.0,
+      "total_assets": 12997873000.0,
+      "total_liabilities": 6786699000.0,
+      "total_equity": 5993603000.0,
+      "cash_and_equiv": 48420000.0,
+      "cfo": 905259000.0,
+      "cfi": -397397000.0,
+      "cff": -533265000.0,
+      "share_repurchases": 9172000.0
+    },
+    "2022": {
+      "revenue": 1606814000.0,
+      "gross_profit": 1128406000.0,
+      "operating_income": 595229000.0,
+      "interest_expense": 204798000.0,
+      "total_assets": 12372905000.0,
+      "total_liabilities": 6450639000.0,
+      "total_equity": 5716372000.0,
+      "cash_and_equiv": 33295000.0,
+      "cfo": 975649000.0,
+      "cfi": 145958000.0,
+      "cff": -1137564000.0,
+      "share_repurchases": 189726000.0
+    },
+    "2023": {
+      "revenue": 1669395000.0,
+      "gross_profit": 1172785000.0,
+      "operating_income": 584342000.0,
+      "interest_expense": 212905000.0,
+      "total_assets": 12361427000.0,
+      "total_liabilities": 6735244000.0,
+      "total_equity": 5422746000.0,
+      "cash_and_equiv": 391749000.0,
+      "cfo": 980064000.0,
+      "cfi": -145140000.0,
+      "cff": -477271000.0,
+      "share_repurchases": 95657000.0
+    },
+    "2024": {
+      "revenue": 1774450000.0,
+      "gross_profit": 1244659000.0,
+      "operating_income": 703095000.0,
+      "total_assets": 12927359000.0,
+      "total_liabilities": 7176120000.0,
+      "total_equity": 5537046000.0,
+      "cash_and_equiv": 66795000.0,
+      "cfo": 1068305000.0,
+      "cfi": -973051000.0,
+      "cff": -419742000.0,
+      "share_repurchases": 0.0
+    }
+  }
+}

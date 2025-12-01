@@ -1,0 +1,89 @@
+{
+  "symbol": "MTB",
+  "name": "M&T Bank",
+  "cik": "0000036270",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 5954761000.0,
+      "net_income": 1353152000.0,
+      "interest_expense": 326395000.0,
+      "income_tax_expense": 416369000.0,
+      "total_assets": 142601105000.0,
+      "total_liabilities": 126413822000.0,
+      "total_equity": 16187000000.0,
+      "ppe": 1161558000.0,
+      "goodwill": 4593112000.0,
+      "cfo": 789187000.0,
+      "cfi": -22020481000.0,
+      "cff": 21347732000.0,
+      "share_repurchases": 373750000.0
+    },
+    "2021": {
+      "revenue": 5992000000.0,
+      "net_income": 1859000000.0,
+      "interest_expense": 114000000.0,
+      "income_tax_expense": 596000000.0,
+      "total_assets": 155107160000.0,
+      "total_liabilities": 137203755000.0,
+      "total_equity": 17903000000.0,
+      "ppe": 1144765000.0,
+      "goodwill": 4593112000.0,
+      "cfo": 2715000000.0,
+      "cfi": -13631000000.0,
+      "cff": 10701000000.0
+    },
+    "2022": {
+      "revenue": 8179000000.0,
+      "net_income": 1992000000.0,
+      "interest_expense": 425000000.0,
+      "income_tax_expense": 620000000.0,
+      "total_assets": 200730000000.0,
+      "total_liabilities": 175412000000.0,
+      "total_equity": 25318000000.0,
+      "ppe": 1654000000.0,
+      "goodwill": 8490000000.0,
+      "cfo": 4574000000.0,
+      "cfi": 16592000000.0,
+      "cff": -20984000000.0,
+      "depr_amort": 282000000.0,
+      "share_repurchases": 1800000000.0
+    },
+    "2023": {
+      "revenue": 9643000000.0,
+      "net_income": 2741000000.0,
+      "interest_expense": 3109000000.0,
+      "income_tax_expense": 878000000.0,
+      "total_assets": 208264000000.0,
+      "total_liabilities": 181307000000.0,
+      "total_equity": 26957000000.0,
+      "ppe": 1739000000.0,
+      "goodwill": 8465000000.0,
+      "cfo": 3905000000.0,
+      "cfi": -7874000000.0,
+      "cff": 4180000000.0,
+      "depr_amort": 304000000.0,
+      "share_repurchases": 594000000.0
+    },
+    "2024": {
+      "net_income": 2588000000.0,
+      "income_tax_expense": 722000000.0,
+      "total_assets": 208105000000.0,
+      "total_liabilities": 179078000000.0,
+      "total_equity": 29027000000.0,
+      "ppe": 1705000000.0,
+      "goodwill": 8465000000.0,
+      "cfo": 3610000000.0,
+      "cfi": -550000000.0,
+      "cff": -2882000000.0,
+      "depr_amort": 316000000.0,
+      "share_repurchases": 396000000.0
+    }
+  }
+}

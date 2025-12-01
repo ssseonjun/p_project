@@ -1,0 +1,88 @@
+{
+  "symbol": "HST",
+  "name": "Host Hotels & Resorts",
+  "cik": "0001070750",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "operating_income": -953000000.0,
+      "net_income": -732000000.0,
+      "interest_expense": 194000000.0,
+      "income_tax_expense": -220000000.0,
+      "total_assets": 12890000000.0,
+      "total_liabilities": 6456000000.0,
+      "total_equity": 6321000000.0,
+      "cash_and_equiv": 2335000000.0,
+      "ppe": 9416000000.0,
+      "cfo": -307000000.0,
+      "cfi": -195000000.0,
+      "cff": 1231000000.0,
+      "share_repurchases": 147000000.0
+    },
+    "2021": {
+      "operating_income": -250000000.0,
+      "net_income": -11000000.0,
+      "interest_expense": 191000000.0,
+      "income_tax_expense": -91000000.0,
+      "total_assets": 12352000000.0,
+      "total_liabilities": 5780000000.0,
+      "total_equity": 6441000000.0,
+      "cash_and_equiv": 807000000.0,
+      "ppe": 9994000000.0,
+      "cfo": 292000000.0,
+      "cfi": -1158000000.0,
+      "cff": -657000000.0,
+      "share_repurchases": 0.0
+    },
+    "2022": {
+      "operating_income": 775000000.0,
+      "net_income": 633000000.0,
+      "interest_expense": 156000000.0,
+      "income_tax_expense": 26000000.0,
+      "total_assets": 12269000000.0,
+      "total_liabilities": 5390000000.0,
+      "total_equity": 6710000000.0,
+      "cash_and_equiv": 667000000.0,
+      "ppe": 9748000000.0,
+      "cfo": 1416000000.0,
+      "cfi": -618000000.0,
+      "cff": -874000000.0,
+      "share_repurchases": 27000000.0
+    },
+    "2023": {
+      "operating_income": 827000000.0,
+      "net_income": 740000000.0,
+      "interest_expense": 191000000.0,
+      "income_tax_expense": 36000000.0,
+      "total_assets": 12243000000.0,
+      "total_liabilities": 5417000000.0,
+      "total_equity": 6633000000.0,
+      "cash_and_equiv": 1144000000.0,
+      "ppe": 9624000000.0,
+      "cfo": 1441000000.0,
+      "cfi": -183000000.0,
+      "cff": -771000000.0,
+      "share_repurchases": 182000000.0
+    },
+    "2024": {
+      "operating_income": 875000000.0,
+      "net_income": 697000000.0,
+      "income_tax_expense": 14000000.0,
+      "total_assets": 13048000000.0,
+      "total_liabilities": 6271000000.0,
+      "total_equity": 6609000000.0,
+      "cash_and_equiv": 554000000.0,
+      "ppe": 10906000000.0,
+      "cfo": 1498000000.0,
+      "cfi": -2040000000.0,
+      "cff": -13000000.0,
+      "share_repurchases": 107000000.0
+    }
+  }
+}

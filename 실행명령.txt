@@ -1,0 +1,12 @@
+# FinBERT 단독 (지금과 거의 같은 구조)
+python classification_demo.py --mode finbert --topk 10
+
+# BERT 단독
+python preprocessing.py   # MODEL_KIND="bert"로 한 번 돌려서 sp500_wiki_bert.csv 생성
+python classification_demo.py --mode bert --topk 10
+
+# FinBERT + SBERT 조합
+python preprocessing.py   # MODEL_KIND="finbert"
+python preprocessing.py   # MODEL_KIND="sbert"
+# test_vec_combo.csv 안에 FinBERT_Embedding / SBERT_Embedding 두 컬럼 만들어 둔 뒤
+python classification_demo.py --mode finbert_sbert --topk 10

@@ -1,0 +1,92 @@
+{
+  "symbol": "INVH",
+  "name": "Invitation Homes",
+  "cik": "0001687229",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 1822828000.0,
+      "net_income": 196212000.0,
+      "interest_expense": 353923000.0,
+      "income_tax_expense": 148000.0,
+      "total_assets": 17506222000.0,
+      "total_liabilities": 8950149000.0,
+      "total_equity": 8504825000.0,
+      "cash_and_equiv": 213422000.0,
+      "ppe": 9995000.0,
+      "goodwill": 258207000.0,
+      "cfo": 696712000.0,
+      "cfi": -425156000.0,
+      "cff": -146033000.0,
+      "dividends": 332151000.0
+    },
+    "2021": {
+      "revenue": 1996615000.0,
+      "net_income": 261425000.0,
+      "interest_expense": 322661000.0,
+      "income_tax_expense": 551000.0,
+      "total_assets": 18537846000.0,
+      "total_liabilities": 8699042000.0,
+      "total_equity": 9797742000.0,
+      "cash_and_equiv": 610166000.0,
+      "ppe": 16595000.0,
+      "goodwill": 258207000.0,
+      "cfo": 907660000.0,
+      "cfi": -1159558000.0,
+      "cff": 658988000.0,
+      "dividends": 393812000.0
+    },
+    "2022": {
+      "revenue": 2238121000.0,
+      "net_income": 383329000.0,
+      "interest_expense": 304092000.0,
+      "income_tax_expense": 150000.0,
+      "total_assets": 18536708000.0,
+      "total_liabilities": 8213077000.0,
+      "total_equity": 10291342000.0,
+      "cash_and_equiv": 262870000.0,
+      "ppe": 24484000.0,
+      "goodwill": 258207000.0,
+      "cfo": 1023587000.0,
+      "cfi": -814413000.0,
+      "cff": -574105000.0,
+      "dividends": 539033000.0
+    },
+    "2023": {
+      "revenue": 2432278000.0,
+      "net_income": 519470000.0,
+      "interest_expense": 333457000.0,
+      "income_tax_expense": 253000.0,
+      "total_assets": 19220967000.0,
+      "total_liabilities": 9030532000.0,
+      "total_equity": 10155971000.0,
+      "cash_and_equiv": 700618000.0,
+      "ppe": 31474000.0,
+      "goodwill": 258207000.0,
+      "cfo": 1107088000.0,
+      "cfi": -773552000.0,
+      "cff": 110021000.0,
+      "dividends": 638129000.0
+    },
+    "2024": {
+      "revenue": 2618942000.0,
+      "net_income": 453917000.0,
+      "total_assets": 18700951000.0,
+      "total_liabilities": 8908442000.0,
+      "total_equity": 9756764000.0,
+      "cash_and_equiv": 174491000.0,
+      "ppe": 42704000.0,
+      "goodwill": 258207000.0,
+      "cfo": 1081805000.0,
+      "cfi": -465870000.0,
+      "cff": -1093726000.0,
+      "dividends": 689244000.0
+    }
+  }
+}

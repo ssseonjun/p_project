@@ -1,0 +1,83 @@
+{
+  "symbol": "AVB",
+  "name": "AvalonBay Communities",
+  "cik": "0000915912",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 2301261000.0,
+      "operating_income": 1472421000.0,
+      "interest_expense": 214151000.0,
+      "income_tax_expense": -3247000.0,
+      "total_assets": 19199144000.0,
+      "total_liabilities": 8444293000.0,
+      "total_equity": 10751583000.0,
+      "cash_and_equiv": 216976000.0,
+      "cfo": 1219615000.0,
+      "cfi": -179433000.0,
+      "cff": -854264000.0,
+      "share_repurchases": 183876000.0
+    },
+    "2021": {
+      "revenue": 2294850000.0,
+      "operating_income": 1456875000.0,
+      "interest_expense": 220415000.0,
+      "income_tax_expense": 5733000.0,
+      "total_assets": 19902016000.0,
+      "total_liabilities": 8965555000.0,
+      "total_equity": 10932527000.0,
+      "cash_and_equiv": 420251000.0,
+      "cfo": 1203170000.0,
+      "cfi": -624053000.0,
+      "cff": -348861000.0,
+      "share_repurchases": 0.0
+    },
+    "2022": {
+      "revenue": 2593446000.0,
+      "operating_income": 1701416000.0,
+      "interest_expense": 230074000.0,
+      "income_tax_expense": 14646000.0,
+      "total_assets": 20457764000.0,
+      "total_liabilities": 9201526000.0,
+      "total_equity": 11253476000.0,
+      "cash_and_equiv": 613189000.0,
+      "cfo": 1421932000.0,
+      "cfi": -560419000.0,
+      "cff": -671056000.0,
+      "share_repurchases": 0.0
+    },
+    "2023": {
+      "revenue": 2767909000.0,
+      "operating_income": 1856443000.0,
+      "interest_expense": 205992000.0,
+      "income_tax_expense": 10153000.0,
+      "total_assets": 20678214000.0,
+      "total_liabilities": 8893423000.0,
+      "total_equity": 11783241000.0,
+      "cash_and_equiv": 397890000.0,
+      "cfo": 1560029000.0,
+      "cfi": -928955000.0,
+      "cff": -834359000.0,
+      "share_repurchases": 1911000.0
+    },
+    "2024": {
+      "revenue": 2913757000.0,
+      "operating_income": 1974431000.0,
+      "interest_expense": 226589000.0,
+      "income_tax_expense": 445000.0,
+      "total_assets": 21000737000.0,
+      "total_liabilities": 9059645000.0,
+      "cash_and_equiv": 108576000.0,
+      "cfo": 1607878000.0,
+      "cfi": -996864000.0,
+      "cff": -874898000.0,
+      "share_repurchases": 0.0
+    }
+  }
+}

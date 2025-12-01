@@ -1,0 +1,81 @@
+{
+  "symbol": "IBKR",
+  "name": "Interactive Brokers",
+  "cik": "0001381197",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "interest_expense": 261000000.0,
+      "income_tax_expense": 77000000.0,
+      "total_assets": 95679000000.0,
+      "total_liabilities": 86676000000.0,
+      "total_equity": 1951000000.0,
+      "cash_and_equiv": 4292000000.0,
+      "accounts_receivable": 13000000.0,
+      "ppe": 67000000.0,
+      "cfo": 8068000000.0,
+      "cfi": -50000000.0,
+      "cff": -229000000.0
+    },
+    "2021": {
+      "interest_expense": 224000000.0,
+      "income_tax_expense": 151000000.0,
+      "total_assets": 109113000000.0,
+      "total_liabilities": 98891000000.0,
+      "total_equity": 2395000000.0,
+      "cash_and_equiv": 2395000000.0,
+      "accounts_receivable": 19000000.0,
+      "ppe": 85000000.0,
+      "cfo": 5896000000.0,
+      "cfi": -188000000.0,
+      "cff": -523000000.0
+    },
+    "2022": {
+      "sga_expense": 165000000.0,
+      "interest_expense": 1018000000.0,
+      "income_tax_expense": 156000000.0,
+      "total_assets": 115143000000.0,
+      "total_liabilities": 103528000000.0,
+      "total_equity": 2848000000.0,
+      "cash_and_equiv": 3436000000.0,
+      "accounts_receivable": 17000000.0,
+      "ppe": 93000000.0,
+      "cfo": 3968000000.0,
+      "cfi": -67000000.0,
+      "cff": -470000000.0
+    },
+    "2023": {
+      "sga_expense": 211000000.0,
+      "interest_expense": 3436000000.0,
+      "income_tax_expense": 257000000.0,
+      "total_assets": 128251000000.0,
+      "total_liabilities": 114184000000.0,
+      "total_equity": 3584000000.0,
+      "cash_and_equiv": 3753000000.0,
+      "accounts_receivable": 26000000.0,
+      "ppe": 81000000.0,
+      "cfo": 4544000000.0,
+      "cfi": -52000000.0,
+      "cff": -624000000.0
+    },
+    "2024": {
+      "sga_expense": 314000000.0,
+      "income_tax_expense": 288000000.0,
+      "total_assets": 150142000000.0,
+      "total_liabilities": 133545000000.0,
+      "total_equity": 4280000000.0,
+      "cash_and_equiv": 3633000000.0,
+      "accounts_receivable": 31000000.0,
+      "ppe": 59000000.0,
+      "cfo": 8724000000.0,
+      "cfi": -44000000.0,
+      "cff": -833000000.0
+    }
+  }
+}

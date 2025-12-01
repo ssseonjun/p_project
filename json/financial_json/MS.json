@@ -1,0 +1,83 @@
+{
+  "symbol": "MS",
+  "name": "Morgan Stanley",
+  "cik": "0000895421",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "net_income": 3385000000.0,
+      "interest_expense": 3849000000.0,
+      "income_tax_expense": 1018000000.0,
+      "total_assets": 1115862000000.0,
+      "total_liabilities": 1012713000000.0,
+      "total_equity": 101781000000.0,
+      "cash_and_equiv": 105654000000.0,
+      "goodwill": 11635000000.0,
+      "cfo": -25231000000.0,
+      "cfi": -37898000000.0,
+      "cff": 83784000000.0,
+      "dividends": 2739000000.0
+    },
+    "2021": {
+      "net_income": 15034000000.0,
+      "interest_expense": 1366000000.0,
+      "income_tax_expense": 4548000000.0,
+      "total_assets": 1188140000000.0,
+      "total_liabilities": 1081542000000.0,
+      "total_equity": 105441000000.0,
+      "cash_and_equiv": 127725000000.0,
+      "goodwill": 16833000000.0,
+      "cfo": 33971000000.0,
+      "cfi": -49897000000.0,
+      "cff": 41547000000.0,
+      "dividends": 4171000000.0
+    },
+    "2022": {
+      "net_income": 11029000000.0,
+      "interest_expense": 12268000000.0,
+      "income_tax_expense": 2910000000.0,
+      "total_assets": 1180231000000.0,
+      "total_liabilities": 1079000000000.0,
+      "total_equity": 100141000000.0,
+      "cash_and_equiv": 128127000000.0,
+      "goodwill": 16652000000.0,
+      "cfo": -6397000000.0,
+      "cfi": -11632000000.0,
+      "cff": 22714000000.0,
+      "dividends": 5401000000.0
+    },
+    "2023": {
+      "net_income": 9087000000.0,
+      "interest_expense": 42051000000.0,
+      "income_tax_expense": 2583000000.0,
+      "total_assets": 1193693000000.0,
+      "total_liabilities": 1093711000000.0,
+      "total_equity": 99038000000.0,
+      "cash_and_equiv": 89232000000.0,
+      "goodwill": 16707000000.0,
+      "cfo": -33536000000.0,
+      "cfi": -3084000000.0,
+      "cff": -2726000000.0,
+      "dividends": 5763000000.0
+    },
+    "2024": {
+      "net_income": 13390000000.0,
+      "income_tax_expense": 4067000000.0,
+      "total_assets": 1215071000000.0,
+      "total_liabilities": 1109643000000.0,
+      "total_equity": 104511000000.0,
+      "cash_and_equiv": 105386000000.0,
+      "goodwill": 16706000000.0,
+      "cfo": 1362000000.0,
+      "cfi": -29460000000.0,
+      "cff": 46756000000.0,
+      "dividends": 6138000000.0
+    }
+  }
+}

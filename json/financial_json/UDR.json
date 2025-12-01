@@ -1,0 +1,91 @@
+{
+  "symbol": "UDR",
+  "name": "UDR, Inc.",
+  "cik": "0000074208",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 1241165000.0,
+      "operating_income": 249103000.0,
+      "net_income": 64266000.0,
+      "interest_expense": 202706000.0,
+      "income_tax_expense": 2545000.0,
+      "total_assets": 9637533000.0,
+      "total_liabilities": 5522648000.0,
+      "total_equity": 3234200000.0,
+      "cash_and_equiv": 1409000.0,
+      "cfo": 604316000.0,
+      "cfi": -460842000.0,
+      "cff": -152594000.0,
+      "depr_amort": 618629000.0,
+      "share_repurchases": 19795000.0
+    },
+    "2021": {
+      "revenue": 1290767000.0,
+      "operating_income": 267968000.0,
+      "net_income": 150016000.0,
+      "interest_expense": 186267000.0,
+      "income_tax_expense": 1439000.0,
+      "total_assets": 10775220000.0,
+      "total_liabilities": 6001474000.0,
+      "total_equity": 3442874000.0,
+      "cash_and_equiv": 967000.0,
+      "cfo": 663960000.0,
+      "cfi": -1272253000.0,
+      "cff": 612540000.0,
+      "depr_amort": 619833000.0
+    },
+    "2022": {
+      "revenue": 1517386000.0,
+      "operating_income": 250814000.0,
+      "net_income": 86924000.0,
+      "interest_expense": 155900000.0,
+      "income_tax_expense": 349000.0,
+      "total_assets": 11038470000.0,
+      "total_liabilities": 6100325000.0,
+      "total_equity": 4098085000.0,
+      "cash_and_equiv": 1193000.0,
+      "cfo": 820071000.0,
+      "cfi": -929528000.0,
+      "cff": 111233000.0,
+      "depr_amort": 679572000.0,
+      "share_repurchases": 49028000.0
+    },
+    "2023": {
+      "revenue": 1627501000.0,
+      "operating_income": 635008000.0,
+      "net_income": 444353000.0,
+      "interest_expense": 180866000.0,
+      "income_tax_expense": 2106000.0,
+      "total_assets": 11373242000.0,
+      "total_liabilities": 6420801000.0,
+      "total_equity": 3991144000.0,
+      "cash_and_equiv": 2922000.0,
+      "cfo": 832664000.0,
+      "cfi": -289138000.0,
+      "cff": -538854000.0,
+      "depr_amort": 691838000.0,
+      "share_repurchases": 25009000.0
+    },
+    "2024": {
+      "revenue": 1671842000.0,
+      "operating_income": 284569000.0,
+      "net_income": 89585000.0,
+      "income_tax_expense": 879000.0,
+      "total_assets": 10897586000.0,
+      "total_liabilities": 6436691000.0,
+      "total_equity": 3443205000.0,
+      "cash_and_equiv": 1326000.0,
+      "cfo": 876848000.0,
+      "cfi": -276351000.0,
+      "cff": -599936000.0,
+      "depr_amort": 695473000.0
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "symbol": "USB",
+  "name": "U.S. Bancorp",
+  "cik": "0000036104",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "net_income": 4959000000.0,
+      "interest_expense": 2015000000.0,
+      "income_tax_expense": 1066000000.0,
+      "total_assets": 553905000000.0,
+      "total_liabilities": 500180000000.0,
+      "total_equity": 53095000000.0,
+      "ppe": 3468000000.0,
+      "goodwill": 9918000000.0,
+      "cfo": 3716000000.0,
+      "cfi": -15440000000.0,
+      "cff": 51899000000.0,
+      "share_repurchases": 1672000000.0
+    },
+    "2021": {
+      "net_income": 7963000000.0,
+      "interest_expense": 993000000.0,
+      "income_tax_expense": 2181000000.0,
+      "total_assets": 573284000000.0,
+      "total_liabilities": 517897000000.0,
+      "total_equity": 54918000000.0,
+      "ppe": 3305000000.0,
+      "goodwill": 10262000000.0,
+      "cfo": 9870000000.0,
+      "cfi": -57487000000.0,
+      "cff": 13942000000.0,
+      "share_repurchases": 1555000000.0
+    },
+    "2022": {
+      "revenue": 24302000000.0,
+      "net_income": 5825000000.0,
+      "interest_expense": 3217000000.0,
+      "income_tax_expense": 1463000000.0,
+      "total_assets": 674805000000.0,
+      "total_liabilities": 623573000000.0,
+      "total_equity": 50766000000.0,
+      "ppe": 3858000000.0,
+      "goodwill": 12373000000.0,
+      "cfo": 21119000000.0,
+      "cfi": 7500000000.0,
+      "cff": -3982000000.0,
+      "share_repurchases": 69000000.0
+    },
+    "2023": {
+      "revenue": 28144000000.0,
+      "net_income": 5429000000.0,
+      "interest_expense": 12611000000.0,
+      "income_tax_expense": 1407000000.0,
+      "total_assets": 663491000000.0,
+      "total_liabilities": 607720000000.0,
+      "total_equity": 55306000000.0,
+      "goodwill": 12489000000.0,
+      "cfo": 8447000000.0,
+      "cfi": 18925000000.0,
+      "cff": -19722000000.0,
+      "share_repurchases": 62000000.0
+    },
+    "2024": {
+      "revenue": 27455000000.0,
+      "net_income": 6299000000.0,
+      "income_tax_expense": 1580000000.0,
+      "total_assets": 678318000000.0,
+      "total_liabilities": 619278000000.0,
+      "total_equity": 58578000000.0,
+      "goodwill": 12536000000.0,
+      "cfo": 11273000000.0,
+      "cfi": -24534000000.0,
+      "cff": 8571000000.0,
+      "share_repurchases": 173000000.0
+    }
+  }
+}

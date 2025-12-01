@@ -1,0 +1,84 @@
+{
+  "symbol": "PFG",
+  "name": "Principal Financial Group",
+  "cik": "0001126328",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 3765100000.0,
+      "net_income": 472600000.0,
+      "income_tax_expense": 265000000.0,
+      "total_assets": 296627700000.0,
+      "total_liabilities": 279754800000.0,
+      "total_equity": 16558900000.0,
+      "cash_and_equiv": 2849800000.0,
+      "goodwill": 1711000000.0,
+      "cfo": 3709300000.0,
+      "cfi": -4996500000.0,
+      "cff": 1621100000.0,
+      "share_repurchases": 307000000.0
+    },
+    "2021": {
+      "revenue": 14427800000.0,
+      "net_income": 1580200000.0,
+      "income_tax_expense": 283900000.0,
+      "total_assets": 304657200000.0,
+      "total_liabilities": 288198900000.0,
+      "total_equity": 16069400000.0,
+      "cash_and_equiv": 2332000000.0,
+      "goodwill": 1627600000.0,
+      "cfo": 3254400000.0,
+      "cfi": -5693700000.0,
+      "cff": 1921500000.0,
+      "share_repurchases": 937200000.0
+    },
+    "2022": {
+      "revenue": 17536100000.0,
+      "net_income": 4756900000.0,
+      "income_tax_expense": 1189500000.0,
+      "total_assets": 290867000000.0,
+      "total_liabilities": 280587200000.0,
+      "total_equity": 9976700000.0,
+      "cash_and_equiv": 4848000000.0,
+      "goodwill": 1598200000.0,
+      "cfo": 3172900000.0,
+      "cfi": 1058500000.0,
+      "cff": -1715400000.0,
+      "share_repurchases": 1661100000.0
+    },
+    "2023": {
+      "revenue": 13665800000.0,
+      "net_income": 623200000.0,
+      "income_tax_expense": 68700000.0,
+      "total_assets": 305046700000.0,
+      "total_liabilities": 293836100000.0,
+      "total_equity": 10916000000.0,
+      "cash_and_equiv": 4707700000.0,
+      "goodwill": 1608500000.0,
+      "cfo": 3792400000.0,
+      "cfi": -1346900000.0,
+      "cff": -2585800000.0,
+      "share_repurchases": 740400000.0
+    },
+    "2024": {
+      "revenue": 16127700000.0,
+      "net_income": 1571000000.0,
+      "income_tax_expense": 291700000.0,
+      "total_assets": 313663600000.0,
+      "total_liabilities": 302194600000.0,
+      "total_equity": 11086400000.0,
+      "cash_and_equiv": 4211900000.0,
+      "goodwill": 1549700000.0,
+      "cfo": 4602900000.0,
+      "cfi": -5399000000.0,
+      "cff": 300300000.0,
+      "share_repurchases": 1042400000.0
+    }
+  }
+}

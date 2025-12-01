@@ -1,0 +1,83 @@
+{
+  "symbol": "APO",
+  "name": "Apollo Global Management",
+  "cik": "0001858681",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 2354000000.0,
+      "net_income": 157000000.0,
+      "income_tax_expense": 86000000.0,
+      "cash_and_equiv": 1556000000.0,
+      "cfo": -1616000000.0,
+      "cfi": -838000000.0,
+      "cff": 3300000000.0,
+      "depr_amort": 19000000.0,
+      "share_repurchases": 92000000.0
+    },
+    "2021": {
+      "revenue": 5951000000.0,
+      "net_income": 1839000000.0,
+      "income_tax_expense": 594000000.0,
+      "total_assets": 30502000000.0,
+      "total_liabilities": 18538000000.0,
+      "total_equity": 3789000000.0,
+      "cash_and_equiv": 917000000.0,
+      "goodwill": 117000000.0,
+      "cfo": 1064000000.0,
+      "cfi": -1552000000.0,
+      "cff": 109000000.0,
+      "depr_amort": 27000000.0,
+      "share_repurchases": 299000000.0
+    },
+    "2022": {
+      "revenue": 4841000000.0,
+      "net_income": 640000000.0,
+      "income_tax_expense": -739000000.0,
+      "total_assets": 257217000000.0,
+      "total_liabilities": 241819000000.0,
+      "total_equity": 6640000000.0,
+      "cash_and_equiv": 8980000000.0,
+      "goodwill": 4322000000.0,
+      "cfo": 3789000000.0,
+      "cfi": -23444000000.0,
+      "cff": 28710000000.0,
+      "depr_amort": 529000000.0,
+      "share_repurchases": 635000000.0
+    },
+    "2023": {
+      "revenue": 32644000000.0,
+      "net_income": 5047000000.0,
+      "income_tax_expense": -923000000.0,
+      "total_assets": 313488000000.0,
+      "total_liabilities": 288243000000.0,
+      "total_equity": 14044000000.0,
+      "goodwill": 4329000000.0,
+      "cfo": 6322000000.0,
+      "cfi": -42407000000.0,
+      "cff": 42638000000.0,
+      "depr_amort": 803000000.0,
+      "share_repurchases": 561000000.0
+    },
+    "2024": {
+      "revenue": 26114000000.0,
+      "net_income": 4577000000.0,
+      "income_tax_expense": 1062000000.0,
+      "total_assets": 377895000000.0,
+      "total_liabilities": 346915000000.0,
+      "total_equity": 17253000000.0,
+      "goodwill": 4327000000.0,
+      "cfo": 3253000000.0,
+      "cfi": -61801000000.0,
+      "cff": 57972000000.0,
+      "depr_amort": 1075000000.0,
+      "share_repurchases": 890000000.0
+    }
+  }
+}

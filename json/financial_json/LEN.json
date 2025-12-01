@@ -1,0 +1,89 @@
+{
+  "symbol": "LEN",
+  "name": "Lennar",
+  "cik": "0000920760",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 6825890000.0,
+      "gross_profit": 1574242000.0,
+      "operating_income": 3482206000.0,
+      "net_income": 882760000.0,
+      "income_tax_expense": 656235000.0,
+      "total_assets": 29935177000.0,
+      "total_liabilities": 11835776000.0,
+      "total_equity": 17994856000.0,
+      "cash_and_equiv": 2863038000.0,
+      "accounts_receivable": 938079000.0,
+      "ppe": 411518000.0,
+      "goodwill": 3632058000.0,
+      "cfo": 4190819000.0,
+      "cfi": -280205000.0,
+      "cff": -2446575000.0,
+      "capex": 72752000.0,
+      "share_repurchases": 321524000.0
+    },
+    "2021": {
+      "revenue": 27130676000.0,
+      "net_income": 4430111000.0,
+      "income_tax_expense": 1362509000.0,
+      "total_assets": 33207778000.0,
+      "total_liabilities": 12211496000.0,
+      "total_equity": 20816425000.0,
+      "ppe": 339906000.0,
+      "cfo": 2532774000.0,
+      "cfi": -105086000.0,
+      "cff": -2404735000.0,
+      "capex": 65172000.0,
+      "share_repurchases": 1430212000.0
+    },
+    "2022": {
+      "revenue": 33671010000.0,
+      "net_income": 4614125000.0,
+      "income_tax_expense": 1366065000.0,
+      "total_assets": 37984295000.0,
+      "total_liabilities": 13743928000.0,
+      "total_equity": 24100500000.0,
+      "ppe": 355095000.0,
+      "cfo": 3265668000.0,
+      "cfi": -128302000.0,
+      "cff": -1277279000.0,
+      "capex": 57214000.0,
+      "share_repurchases": 1039309000.0
+    },
+    "2023": {
+      "revenue": 34233366000.0,
+      "net_income": 3938511000.0,
+      "income_tax_expense": 1241013000.0,
+      "total_assets": 39234303000.0,
+      "total_liabilities": 12532337000.0,
+      "total_equity": 26580664000.0,
+      "ppe": 404789000.0,
+      "cfo": 5179738000.0,
+      "cfi": -176981000.0,
+      "cff": -3247589000.0,
+      "capex": 99799000.0,
+      "share_repurchases": 1182711000.0
+    },
+    "2024": {
+      "revenue": 35441452000.0,
+      "net_income": 3932533000.0,
+      "income_tax_expense": 1217253000.0,
+      "total_assets": 41312781000.0,
+      "total_liabilities": 13291556000.0,
+      "total_equity": 27870135000.0,
+      "ppe": 516198000.0,
+      "cfo": 2403379000.0,
+      "cfi": -302557000.0,
+      "cff": -3681550000.0,
+      "capex": 171503000.0,
+      "share_repurchases": 2256464000.0
+    }
+  }
+}

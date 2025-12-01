@@ -1,0 +1,83 @@
+{
+  "symbol": "WFC",
+  "name": "Wells Fargo",
+  "cik": "0000072971",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "net_income": 3377000000.0,
+      "interest_expense": 7963000000.0,
+      "income_tax_expense": -1157000000.0,
+      "total_assets": 1952911000000.0,
+      "total_liabilities": 1767199000000.0,
+      "total_equity": 184680000000.0,
+      "accounts_receivable": 38116000000.0,
+      "goodwill": 26392000000.0,
+      "cfo": 2051000000.0,
+      "cfi": 122554000000.0,
+      "cff": -1243000000.0,
+      "share_repurchases": 3415000000.0
+    },
+    "2021": {
+      "net_income": 22109000000.0,
+      "interest_expense": 3915000000.0,
+      "income_tax_expense": 5764000000.0,
+      "total_assets": 1948068000000.0,
+      "total_liabilities": 1757958000000.0,
+      "total_equity": 187606000000.0,
+      "accounts_receivable": 20831000000.0,
+      "goodwill": 25180000000.0,
+      "cfo": -11525000000.0,
+      "cfi": -7619000000.0,
+      "cff": -11238000000.0,
+      "share_repurchases": 14464000000.0
+    },
+    "2022": {
+      "net_income": 13677000000.0,
+      "interest_expense": 9074000000.0,
+      "income_tax_expense": 2251000000.0,
+      "total_assets": 1881020000000.0,
+      "total_liabilities": 1698807000000.0,
+      "total_equity": 180227000000.0,
+      "accounts_receivable": 23646000000.0,
+      "goodwill": 25173000000.0,
+      "cfo": 27048000000.0,
+      "cfi": -42476000000.0,
+      "cff": -59645000000.0,
+      "share_repurchases": 6033000000.0
+    },
+    "2023": {
+      "net_income": 19142000000.0,
+      "interest_expense": 32743000000.0,
+      "income_tax_expense": 2607000000.0,
+      "total_assets": 1932468000000.0,
+      "total_liabilities": 1745025000000.0,
+      "total_equity": 185735000000.0,
+      "accounts_receivable": 30541000000.0,
+      "goodwill": 25175000000.0,
+      "cfo": 40358000000.0,
+      "cfi": 16043000000.0,
+      "cff": 20494000000.0,
+      "share_repurchases": 11851000000.0
+    },
+    "2024": {
+      "net_income": 19722000000.0,
+      "income_tax_expense": 3399000000.0,
+      "total_assets": 1929845000000.0,
+      "total_liabilities": 1748779000000.0,
+      "total_equity": 179120000000.0,
+      "accounts_receivable": 19608000000.0,
+      "goodwill": 25167000000.0,
+      "cfo": 3035000000.0,
+      "cfi": -15651000000.0,
+      "cff": -21534000000.0,
+      "share_repurchases": 19448000000.0
+    }
+  }
+}

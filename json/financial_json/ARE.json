@@ -1,0 +1,86 @@
+{
+  "symbol": "ARE",
+  "name": "Alexandria Real Estate Equities",
+  "cik": "0001035443",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "net_income": 770959000.0,
+      "interest_expense": 171609000.0,
+      "total_assets": 22827878000.0,
+      "total_liabilities": 9384100000.0,
+      "total_equity": 11725712000.0,
+      "cash_and_equiv": 568532000.0,
+      "accounts_receivable": 7333000.0,
+      "ppe": 31130000.0,
+      "cfo": 882510000.0,
+      "cfi": -3278161000.0,
+      "cff": 2750356000.0,
+      "dividends": 533000000.0
+    },
+    "2021": {
+      "net_income": 571247000.0,
+      "interest_expense": 142165000.0,
+      "total_assets": 30219373000.0,
+      "total_liabilities": 11186123000.0,
+      "total_equity": 16189542000.0,
+      "cash_and_equiv": 361348000.0,
+      "accounts_receivable": 7379000.0,
+      "ppe": 26429000.0,
+      "cfo": 1010197000.0,
+      "cfi": -7107324000.0,
+      "cff": 5916361000.0,
+      "dividends": 656000000.0
+    },
+    "2022": {
+      "net_income": 521660000.0,
+      "interest_expense": 94203000.0,
+      "total_assets": 35523399000.0,
+      "total_liabilities": 12840152000.0,
+      "total_equity": 18972387000.0,
+      "cash_and_equiv": 825193000.0,
+      "accounts_receivable": 7614000.0,
+      "ppe": 23186000.0,
+      "cfo": 1294321000.0,
+      "cfi": -5080458000.0,
+      "cff": 4229772000.0,
+      "dividends": 757700000.0,
+      "share_repurchases": 0.0
+    },
+    "2023": {
+      "net_income": 103639000.0,
+      "interest_expense": 74204000.0,
+      "total_assets": 36771402000.0,
+      "total_liabilities": 14148409000.0,
+      "total_equity": 18471175000.0,
+      "cash_and_equiv": 618190000.0,
+      "accounts_receivable": 8211000.0,
+      "ppe": 26560000.0,
+      "cfo": 1630550000.0,
+      "cfi": -2500619000.0,
+      "cff": 674156000.0,
+      "dividends": 847500000.0,
+      "share_repurchases": 0.0
+    },
+    "2024": {
+      "net_income": 322949000.0,
+      "interest_expense": 185838000.0,
+      "total_assets": 37527449000.0,
+      "total_liabilities": 15128988000.0,
+      "total_equity": 17889042000.0,
+      "cash_and_equiv": 552146000.0,
+      "accounts_receivable": 6409000.0,
+      "ppe": 39558000.0,
+      "cfo": 1504524000.0,
+      "cfi": -1510695000.0,
+      "cff": -93315000.0,
+      "share_repurchases": 50107000.0
+    }
+  }
+}

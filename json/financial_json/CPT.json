@@ -1,0 +1,92 @@
+{
+  "symbol": "CPT",
+  "name": "Camden Property Trust",
+  "cik": "0000906345",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 10800000.0,
+      "cogs": 394826000.0,
+      "net_income": 123911000.0,
+      "interest_expense": 91526000.0,
+      "total_assets": 7198952000.0,
+      "total_liabilities": 3682365000.0,
+      "total_equity": 3444905000.0,
+      "cash_and_equiv": 420441000.0,
+      "cfo": 519319000.0,
+      "cfi": -429602000.0,
+      "cff": 307317000.0,
+      "depr_amort": 367162000.0,
+      "dividends": 333360000.0
+    },
+    "2021": {
+      "revenue": 10532000.0,
+      "cogs": 417025000.0,
+      "net_income": 303907000.0,
+      "interest_expense": 97297000.0,
+      "total_assets": 7976784000.0,
+      "total_liabilities": 3710529000.0,
+      "total_equity": 4197490000.0,
+      "cash_and_equiv": 613391000.0,
+      "cfo": 577467000.0,
+      "cfi": -804391000.0,
+      "cff": 421371000.0,
+      "depr_amort": 420692000.0,
+      "dividends": 343039000.0
+    },
+    "2022": {
+      "revenue": 5188000.0,
+      "cogs": 498081000.0,
+      "net_income": 653613000.0,
+      "interest_expense": 113424000.0,
+      "total_assets": 9327935000.0,
+      "total_liabilities": 4271014000.0,
+      "total_equity": 4986620000.0,
+      "cash_and_equiv": 10687000.0,
+      "cfo": 744712000.0,
+      "cfi": -1456184000.0,
+      "cff": 109930000.0,
+      "depr_amort": 577020000.0,
+      "dividends": 396822000.0,
+      "share_repurchases": 0.0
+    },
+    "2023": {
+      "revenue": 3451000.0,
+      "cogs": 548920000.0,
+      "net_income": 403309000.0,
+      "interest_expense": 133395000.0,
+      "total_assets": 9383737000.0,
+      "total_liabilities": 4331966000.0,
+      "total_equity": 4980757000.0,
+      "cash_and_equiv": 259686000.0,
+      "cfo": 794950000.0,
+      "cfi": -127127000.0,
+      "cff": -417214000.0,
+      "depr_amort": 574813000.0,
+      "dividends": 434875000.0,
+      "share_repurchases": 0.0
+    },
+    "2024": {
+      "revenue": 7137000.0,
+      "cogs": 558805000.0,
+      "net_income": 163293000.0,
+      "interest_expense": 129815000.0,
+      "total_assets": 8852144000.0,
+      "total_liabilities": 4104955000.0,
+      "total_equity": 4675198000.0,
+      "cash_and_equiv": 21045000.0,
+      "cfo": 774877000.0,
+      "cfi": -285230000.0,
+      "cff": -725485000.0,
+      "depr_amort": 582014000.0,
+      "dividends": 450965000.0,
+      "share_repurchases": 49997000.0
+    }
+  }
+}

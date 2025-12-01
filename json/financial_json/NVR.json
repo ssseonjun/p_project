@@ -1,0 +1,90 @@
+{
+  "symbol": "NVR",
+  "name": "NVR, Inc.",
+  "cik": "0000906163",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 7536923000.0,
+      "net_income": 305004000.0,
+      "interest_expense": 40872000.0,
+      "income_tax_expense": 176785000.0,
+      "total_assets": 5777141000.0,
+      "total_liabilities": 2674067000.0,
+      "total_equity": 3103074000.0,
+      "cash_and_equiv": 2809782000.0,
+      "cfo": 925269000.0,
+      "cfi": -3933000.0,
+      "cff": 727642000.0,
+      "depr_amort": 21992000.0,
+      "capex": 16119000.0,
+      "share_repurchases": 371078000.0
+    },
+    "2021": {
+      "revenue": 8951025000.0,
+      "net_income": 1236719000.0,
+      "interest_expense": 53117000.0,
+      "income_tax_expense": 353684000.0,
+      "total_assets": 5834475000.0,
+      "total_liabilities": 2832097000.0,
+      "total_equity": 3002378000.0,
+      "cfo": 1242393000.0,
+      "cfi": -18179000.0,
+      "cff": -1397012000.0,
+      "depr_amort": 19463000.0,
+      "capex": 17875000.0,
+      "share_repurchases": 1538019000.0
+    },
+    "2022": {
+      "revenue": 10526434000.0,
+      "net_income": 1725575000.0,
+      "interest_expense": 39524000.0,
+      "income_tax_expense": 527619000.0,
+      "total_assets": 5660973000.0,
+      "total_liabilities": 2154124000.0,
+      "total_equity": 3506849000.0,
+      "cfo": 1870101000.0,
+      "cfi": -27431000.0,
+      "cff": -1905136000.0,
+      "depr_amort": 17396000.0,
+      "capex": 18428000.0,
+      "share_repurchases": 1500358000.0
+    },
+    "2023": {
+      "revenue": 9518202000.0,
+      "net_income": 1591611000.0,
+      "interest_expense": 27740000.0,
+      "income_tax_expense": 336762000.0,
+      "total_assets": 6601757000.0,
+      "total_liabilities": 2237032000.0,
+      "total_equity": 4364725000.0,
+      "cfo": 1497993000.0,
+      "cfi": -24100000.0,
+      "cff": -832967000.0,
+      "depr_amort": 16916000.0,
+      "capex": 24877000.0,
+      "share_repurchases": 1081815000.0
+    },
+    "2024": {
+      "revenue": 10524479000.0,
+      "net_income": 1681928000.0,
+      "interest_expense": 27783000.0,
+      "income_tax_expense": 433578000.0,
+      "total_assets": 6380988000.0,
+      "total_liabilities": 2170916000.0,
+      "total_equity": 4210072000.0,
+      "cfo": 1374462000.0,
+      "cfi": -26553000.0,
+      "cff": -1898686000.0,
+      "depr_amort": 18375000.0,
+      "capex": 29212000.0,
+      "share_repurchases": 2057677000.0
+    }
+  }
+}

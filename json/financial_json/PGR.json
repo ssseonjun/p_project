@@ -1,0 +1,84 @@
+{
+  "symbol": "PGR",
+  "name": "Progressive Corporation",
+  "cik": "0000080661",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 42658100000.0,
+      "net_income": 5704600000.0,
+      "income_tax_expense": 1468600000.0,
+      "total_assets": 64098300000.0,
+      "total_liabilities": 47059700000.0,
+      "total_equity": 17038600000.0,
+      "ppe": 1106000000.0,
+      "goodwill": 452700000.0,
+      "cfo": 6905600000.0,
+      "cfi": -6117700000.0,
+      "cff": -938800000.0,
+      "capex": 223500000.0
+    },
+    "2021": {
+      "revenue": 47702000000.0,
+      "net_income": 3350900000.0,
+      "income_tax_expense": 859100000.0,
+      "total_assets": 71132300000.0,
+      "total_liabilities": 52900700000.0,
+      "total_equity": 18231600000.0,
+      "ppe": 1137300000.0,
+      "goodwill": 452700000.0,
+      "cfo": 7761700000.0,
+      "cfi": -3119800000.0,
+      "cff": -4516300000.0,
+      "capex": 243500000.0
+    },
+    "2022": {
+      "revenue": 49611000000.0,
+      "net_income": 722000000.0,
+      "income_tax_expense": 200000000.0,
+      "total_assets": 75465000000.0,
+      "total_liabilities": 59574000000.0,
+      "total_equity": 15891000000.0,
+      "ppe": 1034000000.0,
+      "goodwill": 227900000.0,
+      "cfo": 6849000000.0,
+      "cfi": -7956000000.0,
+      "cff": 1126000000.0,
+      "capex": 292000000.0
+    },
+    "2023": {
+      "revenue": 62109000000.0,
+      "net_income": 3903000000.0,
+      "income_tax_expense": 1001000000.0,
+      "total_assets": 88691000000.0,
+      "total_liabilities": 68414000000.0,
+      "total_equity": 20277000000.0,
+      "ppe": 881000000.0,
+      "goodwill": 228000000.0,
+      "cfo": 10643000000.0,
+      "cfi": -10842000000.0,
+      "cff": 78000000.0,
+      "capex": 252000000.0
+    },
+    "2024": {
+      "revenue": 75372000000.0,
+      "net_income": 8480000000.0,
+      "income_tax_expense": 2233000000.0,
+      "total_assets": 105745000000.0,
+      "total_liabilities": 80154000000.0,
+      "total_equity": 25591000000.0,
+      "ppe": 790000000.0,
+      "goodwill": 228000000.0,
+      "cfo": 15119000000.0,
+      "cfi": -13749000000.0,
+      "cff": -1316000000.0,
+      "capex": 285000000.0
+    }
+  }
+}

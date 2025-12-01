@@ -1,0 +1,75 @@
+{
+  "symbol": "EQR",
+  "name": "Equity Residential",
+  "cik": "0000906107",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "operating_income": 1317990000.0,
+      "net_income": 913636000.0,
+      "income_tax_expense": 852000.0,
+      "total_assets": 20286891000.0,
+      "total_liabilities": 9184454000.0,
+      "total_equity": 10525651000.0,
+      "cash_and_equiv": 42591000.0,
+      "cfo": 1265536000.0,
+      "cfi": 663586000.0,
+      "cff": -1946393000.0
+    },
+    "2021": {
+      "operating_income": 1675841000.0,
+      "net_income": 1332850000.0,
+      "income_tax_expense": 915000.0,
+      "total_assets": 21169241000.0,
+      "total_liabilities": 9483056000.0,
+      "total_equity": 10954948000.0,
+      "cash_and_equiv": 123832000.0,
+      "cfo": 1260184000.0,
+      "cfi": -434620000.0,
+      "cff": -565056000.0
+    },
+    "2022": {
+      "operating_income": 1116046000.0,
+      "net_income": 776911000.0,
+      "income_tax_expense": 900000.0,
+      "total_assets": 20218262000.0,
+      "total_liabilities": 8517310000.0,
+      "total_equity": 11173439000.0,
+      "cash_and_equiv": 53869000.0,
+      "cfo": 1454756000.0,
+      "cfi": 107792000.0,
+      "cff": -1785612000.0
+    },
+    "2023": {
+      "operating_income": 1160585000.0,
+      "net_income": 835438000.0,
+      "income_tax_expense": 1148000.0,
+      "total_assets": 20034564000.0,
+      "total_liabilities": 8456188000.0,
+      "total_equity": 11085828000.0,
+      "cash_and_equiv": 50743000.0,
+      "cfo": 1532798000.0,
+      "cfi": -409504000.0,
+      "cff": -1120471000.0,
+      "share_repurchases": 49105000.0
+    },
+    "2024": {
+      "net_income": 1035831000.0,
+      "income_tax_expense": 1256000.0,
+      "total_assets": 20834176000.0,
+      "total_liabilities": 9249829000.0,
+      "total_equity": 11044560000.0,
+      "cash_and_equiv": 62302000.0,
+      "cfo": 1573607000.0,
+      "cfi": -1176484000.0,
+      "cff": -376952000.0,
+      "share_repurchases": 38474000.0
+    }
+  }
+}

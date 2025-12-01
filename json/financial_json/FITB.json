@@ -1,0 +1,93 @@
+{
+  "symbol": "FITB",
+  "name": "Fifth Third Bancorp",
+  "cik": "0000035527",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "net_income": 1427000000.0,
+      "interest_expense": 790000000.0,
+      "income_tax_expense": 370000000.0,
+      "total_assets": 204680000000.0,
+      "total_liabilities": 181569000000.0,
+      "total_equity": 23111000000.0,
+      "ppe": 2088000000.0,
+      "goodwill": 4258000000.0,
+      "cfo": 371000000.0,
+      "cfi": -31902000000.0,
+      "cff": 31400000000.0,
+      "capex": 305000000.0,
+      "dividends": 858000000.0,
+      "share_repurchases": 0.0
+    },
+    "2021": {
+      "net_income": 2770000000.0,
+      "interest_expense": 441000000.0,
+      "income_tax_expense": 747000000.0,
+      "total_assets": 211116000000.0,
+      "total_liabilities": 188906000000.0,
+      "total_equity": 22210000000.0,
+      "ppe": 2120000000.0,
+      "goodwill": 4514000000.0,
+      "cfo": 2704000000.0,
+      "cfi": -7968000000.0,
+      "cff": 5111000000.0,
+      "capex": 309000000.0,
+      "dividends": 897000000.0,
+      "share_repurchases": 1393000000.0
+    },
+    "2022": {
+      "net_income": 2446000000.0,
+      "interest_expense": 978000000.0,
+      "income_tax_expense": 647000000.0,
+      "total_assets": 207452000000.0,
+      "total_liabilities": 190125000000.0,
+      "total_equity": 17327000000.0,
+      "ppe": 2187000000.0,
+      "goodwill": 4915000000.0,
+      "cfo": 6428000000.0,
+      "cfi": -4871000000.0,
+      "cff": -1085000000.0,
+      "capex": 348000000.0,
+      "dividends": 927000000.0,
+      "share_repurchases": 100000000.0
+    },
+    "2023": {
+      "net_income": 2349000000.0,
+      "interest_expense": 3933000000.0,
+      "income_tax_expense": 639000000.0,
+      "total_assets": 214574000000.0,
+      "total_liabilities": 195402000000.0,
+      "total_equity": 19172000000.0,
+      "ppe": 2349000000.0,
+      "goodwill": 4919000000.0,
+      "cfo": 4509000000.0,
+      "cfi": -9488000000.0,
+      "cff": 4655000000.0,
+      "capex": 491000000.0,
+      "dividends": 1060000000.0,
+      "share_repurchases": 200000000.0
+    },
+    "2024": {
+      "net_income": 2314000000.0,
+      "income_tax_expense": 602000000.0,
+      "total_assets": 212927000000.0,
+      "total_liabilities": 193282000000.0,
+      "total_equity": 19645000000.0,
+      "ppe": 2475000000.0,
+      "goodwill": 4918000000.0,
+      "cfo": 2824000000.0,
+      "cfi": 1039000000.0,
+      "cff": -3991000000.0,
+      "capex": 414000000.0,
+      "dividends": 1176000000.0,
+      "share_repurchases": 625000000.0
+    }
+  }
+}

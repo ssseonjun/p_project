@@ -1,0 +1,92 @@
+{
+  "symbol": "CB",
+  "name": "Chubb Limited",
+  "cik": "0000896159",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 35994000000.0,
+      "net_income": 3533000000.0,
+      "interest_expense": 516000000.0,
+      "income_tax_expense": 629000000.0,
+      "total_assets": 190774000000.0,
+      "total_liabilities": 131333000000.0,
+      "total_equity": 59441000000.0,
+      "cash_and_equiv": 1747000000.0,
+      "ppe": 2000000000.0,
+      "goodwill": 15400000000.0,
+      "cfo": 9785000000.0,
+      "cfi": -7521000000.0,
+      "cff": -2082000000.0,
+      "share_repurchases": 523000000.0
+    },
+    "2021": {
+      "revenue": 40869000000.0,
+      "net_income": 8525000000.0,
+      "interest_expense": 492000000.0,
+      "income_tax_expense": 1269000000.0,
+      "total_assets": 200054000000.0,
+      "total_liabilities": 140340000000.0,
+      "total_equity": 58328000000.0,
+      "cash_and_equiv": 1659000000.0,
+      "ppe": 2000000000.0,
+      "goodwill": 15213000000.0,
+      "cfo": 11151000000.0,
+      "cfi": -6659000000.0,
+      "cff": -4411000000.0,
+      "share_repurchases": 4861000000.0
+    },
+    "2022": {
+      "revenue": 43097000000.0,
+      "net_income": 5246000000.0,
+      "interest_expense": 570000000.0,
+      "income_tax_expense": 1239000000.0,
+      "total_assets": 199017000000.0,
+      "total_liabilities": 148498000000.0,
+      "total_equity": 50519000000.0,
+      "cash_and_equiv": 2012000000.0,
+      "ppe": 2400000000.0,
+      "goodwill": 16228000000.0,
+      "cfo": 11258000000.0,
+      "cfi": -5654000000.0,
+      "cff": -5142000000.0,
+      "share_repurchases": 2894000000.0
+    },
+    "2023": {
+      "revenue": 49735000000.0,
+      "net_income": 9028000000.0,
+      "interest_expense": 672000000.0,
+      "income_tax_expense": 511000000.0,
+      "total_assets": 230682000000.0,
+      "total_liabilities": 166991000000.0,
+      "total_equity": 59507000000.0,
+      "ppe": 2900000000.0,
+      "goodwill": 19686000000.0,
+      "cfo": 12632000000.0,
+      "cfi": -7648000000.0,
+      "cff": -4489000000.0,
+      "share_repurchases": 2411000000.0
+    },
+    "2024": {
+      "revenue": 55753000000.0,
+      "net_income": 9272000000.0,
+      "interest_expense": 741000000.0,
+      "income_tax_expense": 1815000000.0,
+      "total_assets": 246548000000.0,
+      "total_liabilities": 178154000000.0,
+      "total_equity": 64021000000.0,
+      "ppe": 3100000000.0,
+      "goodwill": 19579000000.0,
+      "cfo": 16182000000.0,
+      "cfi": -13923000000.0,
+      "cff": -2181000000.0,
+      "share_repurchases": 1801000000.0
+    }
+  }
+}

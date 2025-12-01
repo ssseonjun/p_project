@@ -1,0 +1,93 @@
+{
+  "symbol": "NTRS",
+  "name": "Northern Trust",
+  "cik": "0000073124",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 6100800000.0,
+      "net_income": 1209300000.0,
+      "interest_expense": 200300000.0,
+      "income_tax_expense": 418300000.0,
+      "total_assets": 170003900000.0,
+      "total_liabilities": 158315600000.0,
+      "total_equity": 11688300000.0,
+      "ppe": 514900000.0,
+      "goodwill": 707200000.0,
+      "cfo": 1896800000.0,
+      "cfi": -29923000000.0,
+      "cff": 27871900000.0,
+      "capex": 135800000.0,
+      "share_repurchases": 299800000.0
+    },
+    "2021": {
+      "revenue": 6464500000.0,
+      "net_income": 1545300000.0,
+      "interest_expense": 23800000.0,
+      "income_tax_expense": 464800000.0,
+      "total_assets": 183889800000.0,
+      "total_liabilities": 171873000000.0,
+      "total_equity": 12016800000.0,
+      "ppe": 488700000.0,
+      "goodwill": 706200000.0,
+      "cfo": 1356000000.0,
+      "cfi": -18602600000.0,
+      "cff": 16073500000.0,
+      "capex": 95500000.0,
+      "share_repurchases": 267600000.0
+    },
+    "2022": {
+      "revenue": 6761200000.0,
+      "net_income": 1336000000.0,
+      "interest_expense": 990500000.0,
+      "income_tax_expense": 430300000.0,
+      "total_assets": 155036700000.0,
+      "total_liabilities": 143777200000.0,
+      "total_equity": 11259500000.0,
+      "ppe": 500500000.0,
+      "goodwill": 691300000.0,
+      "cfo": 2392400000.0,
+      "cfi": 25929800000.0,
+      "cff": -26437400000.0,
+      "capex": 128600000.0,
+      "share_repurchases": 35400000.0
+    },
+    "2023": {
+      "revenue": 6773500000.0,
+      "net_income": 1107300000.0,
+      "interest_expense": 5343000000.0,
+      "income_tax_expense": 357500000.0,
+      "total_assets": 150783100000.0,
+      "total_liabilities": 138885200000.0,
+      "total_equity": 11897900000.0,
+      "ppe": 502200000.0,
+      "goodwill": 702300000.0,
+      "cfo": 2625600000.0,
+      "cfi": 4784100000.0,
+      "cff": -7182600000.0,
+      "capex": 116500000.0,
+      "share_repurchases": 347500000.0
+    },
+    "2024": {
+      "revenue": 8290400000.0,
+      "net_income": 2031100000.0,
+      "income_tax_expense": 628400000.0,
+      "total_assets": 155508400000.0,
+      "total_liabilities": 142720000000.0,
+      "total_equity": 12788400000.0,
+      "ppe": 490300000.0,
+      "goodwill": 694900000.0,
+      "cfo": -486000000.0,
+      "cfi": -2563500000.0,
+      "cff": 3439500000.0,
+      "capex": 101500000.0,
+      "share_repurchases": 937800000.0
+    }
+  }
+}

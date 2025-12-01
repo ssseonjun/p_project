@@ -1,0 +1,78 @@
+{
+  "symbol": "TFC",
+  "name": "Truist Financial",
+  "cik": "0000092230",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "interest_expense": 1722000000.0,
+      "income_tax_expense": 981000000.0,
+      "total_assets": 509228000000.0,
+      "total_liabilities": 438316000000.0,
+      "cash_and_equiv": 18868000000.0,
+      "ppe": 3870000000.0,
+      "goodwill": 24447000000.0,
+      "cfo": 7437000000.0,
+      "cfi": -43652000000.0,
+      "cff": 36018000000.0,
+      "capex": 815000000.0,
+      "share_repurchases": 0.0
+    },
+    "2021": {
+      "interest_expense": 768000000.0,
+      "income_tax_expense": 1556000000.0,
+      "total_assets": 541241000000.0,
+      "total_liabilities": 471970000000.0,
+      "cash_and_equiv": 20295000000.0,
+      "ppe": 3700000000.0,
+      "goodwill": 26098000000.0,
+      "cfo": 7892000000.0,
+      "cfi": -32056000000.0,
+      "cff": 25591000000.0,
+      "capex": 442000000.0,
+      "share_repurchases": 1616000000.0
+    },
+    "2022": {
+      "interest_expense": 2321000000.0,
+      "income_tax_expense": 1250000000.0,
+      "total_assets": 555255000000.0,
+      "total_liabilities": 494718000000.0,
+      "ppe": 3605000000.0,
+      "goodwill": 23233000000.0,
+      "cfo": 11081000000.0,
+      "cfi": -29972000000.0,
+      "cff": 20017000000.0,
+      "capex": 564000000.0,
+      "share_repurchases": 250000000.0
+    },
+    "2023": {
+      "interest_expense": 9856000000.0,
+      "income_tax_expense": 738000000.0,
+      "total_assets": 535349000000.0,
+      "total_liabilities": 476096000000.0,
+      "ppe": 3298000000.0,
+      "goodwill": 17156000000.0,
+      "cfo": 8631000000.0,
+      "cfi": 22858000000.0,
+      "cff": -22266000000.0,
+      "share_repurchases": 0.0
+    },
+    "2024": {
+      "income_tax_expense": -556000000.0,
+      "total_assets": 531176000000.0,
+      "total_liabilities": 467497000000.0,
+      "ppe": 3225000000.0,
+      "goodwill": 17125000000.0,
+      "cfo": 2164000000.0,
+      "cfi": 18598000000.0,
+      "cff": -11638000000.0,
+      "share_repurchases": 1000000000.0
+    }
+  }
+}

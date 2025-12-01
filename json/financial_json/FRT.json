@@ -1,0 +1,79 @@
+{
+  "symbol": "FRT",
+  "name": "Federal Realty Investment Trust",
+  "cik": "0000034903",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 835494000.0,
+      "operating_income": 289524000.0,
+      "net_income": 131706000.0,
+      "interest_expense": 136289000.0,
+      "total_assets": 7607624000.0,
+      "total_liabilities": 4921157000.0,
+      "total_equity": 2464157000.0,
+      "cash_and_equiv": 798329000.0,
+      "cfo": 369929000.0,
+      "cfi": -368383000.0,
+      "cff": 661736000.0
+    },
+    "2021": {
+      "revenue": 951224000.0,
+      "operating_income": 394725000.0,
+      "net_income": 261498000.0,
+      "interest_expense": 127698000.0,
+      "total_assets": 7622320000.0,
+      "total_liabilities": 4745464000.0,
+      "total_equity": 2580602000.0,
+      "cash_and_equiv": 162132000.0,
+      "cfo": 471352000.0,
+      "cfi": -660118000.0,
+      "cff": -452967000.0
+    },
+    "2022": {
+      "revenue": 1074378000.0,
+      "operating_income": 526408000.0,
+      "net_income": 385491000.0,
+      "interest_expense": 136989000.0,
+      "total_assets": 8233991000.0,
+      "total_liabilities": 5021606000.0,
+      "total_equity": 2954012000.0,
+      "cash_and_equiv": 85558000.0,
+      "cfo": 516769000.0,
+      "cfi": -785998000.0,
+      "cff": 190414000.0
+    },
+    "2023": {
+      "revenue": 1132154000.0,
+      "operating_income": 406470000.0,
+      "net_income": 236985000.0,
+      "interest_expense": 167809000.0,
+      "total_assets": 8436512000.0,
+      "total_liabilities": 5210990000.0,
+      "total_equity": 2963509000.0,
+      "cash_and_equiv": 250825000.0,
+      "cfo": 555830000.0,
+      "cfi": -358325000.0,
+      "cff": -33849000.0
+    },
+    "2024": {
+      "revenue": 1202452000.0,
+      "operating_income": 472356000.0,
+      "net_income": 295208000.0,
+      "interest_expense": 175476000.0,
+      "total_assets": 8524757000.0,
+      "total_liabilities": 5100327000.0,
+      "total_equity": 3171594000.0,
+      "cash_and_equiv": 123409000.0,
+      "cfo": 574563000.0,
+      "cfi": -446826000.0,
+      "cff": -252298000.0
+    }
+  }
+}

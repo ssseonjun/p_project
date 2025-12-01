@@ -1,0 +1,82 @@
+{
+  "symbol": "SPG",
+  "name": "Simon Property Group",
+  "cik": "0001063761",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 1131429000.0,
+      "operating_income": 462047000.0,
+      "interest_expense": 784400000.0,
+      "total_assets": 34786846000.0,
+      "total_liabilities": 31128608000.0,
+      "total_equity": 3039472000.0,
+      "cash_and_equiv": 1011613000.0,
+      "goodwill": 20098000.0,
+      "cfo": 2326698000.0,
+      "cfi": -3978398000.0,
+      "cff": 1993940000.0,
+      "share_repurchases": 152589000.0
+    },
+    "2021": {
+      "revenue": 1326138000.0,
+      "operating_income": 591533000.0,
+      "interest_expense": 795712000.0,
+      "total_assets": 33777379000.0,
+      "total_liabilities": 29376654000.0,
+      "total_equity": 3361452000.0,
+      "cash_and_equiv": 533936000.0,
+      "goodwill": 20098000.0,
+      "cfo": 3637402000.0,
+      "cfi": -552764000.0,
+      "cff": -3562315000.0
+    },
+    "2022": {
+      "revenue": 1399898000.0,
+      "operating_income": 684205000.0,
+      "interest_expense": 761253000.0,
+      "total_assets": 33011274000.0,
+      "total_liabilities": 29187383000.0,
+      "total_equity": 3138524000.0,
+      "cash_and_equiv": 621628000.0,
+      "goodwill": 20098000.0,
+      "cfo": 3766604000.0,
+      "cfi": -626564000.0,
+      "cff": -3052348000.0,
+      "share_repurchases": 180387000.0
+    },
+    "2023": {
+      "revenue": 1527438000.0,
+      "operating_income": 792139000.0,
+      "interest_expense": 854648000.0,
+      "total_assets": 34283495000.0,
+      "total_liabilities": 30595897000.0,
+      "total_equity": 3022834000.0,
+      "cash_and_equiv": 1168991000.0,
+      "goodwill": 20098000.0,
+      "cfo": 3930793000.0,
+      "cfi": -1363181000.0,
+      "cff": -2020249000.0,
+      "share_repurchases": 140593000.0
+    },
+    "2024": {
+      "revenue": 1582232000.0,
+      "operating_income": 835746000.0,
+      "interest_expense": 905797000.0,
+      "total_assets": 32405691000.0,
+      "total_liabilities": 28806239000.0,
+      "total_equity": 2941925000.0,
+      "cash_and_equiv": 1400345000.0,
+      "goodwill": 20098000.0,
+      "cfo": 3814655000.0,
+      "cfi": 1408321000.0,
+      "cff": -4991622000.0
+    }
+  }
+}

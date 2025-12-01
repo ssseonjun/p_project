@@ -1,0 +1,93 @@
+{
+  "symbol": "O",
+  "name": "Realty Income",
+  "cik": "0000726728",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 418076000.0,
+      "net_income": 117931000.0,
+      "interest_expense": 78764000.0,
+      "income_tax_expense": 14693000.0,
+      "total_assets": 20740285000.0,
+      "total_liabilities": 9722555000.0,
+      "total_equity": 10985483000.0,
+      "cash_and_equiv": 824476000.0,
+      "accounts_receivable": 285701000.0,
+      "goodwill": 14180000.0,
+      "cfo": 1115543000.0,
+      "cfi": -2032379000.0,
+      "cff": 1692079000.0,
+      "depr_amort": 175041000.0
+    },
+    "2021": {
+      "revenue": 2080463000.0,
+      "net_income": 359456000.0,
+      "interest_expense": 323644000.0,
+      "income_tax_expense": 31657000.0,
+      "total_assets": 43137502000.0,
+      "total_liabilities": 18008102000.0,
+      "total_equity": 25052574000.0,
+      "cash_and_equiv": 258579000.0,
+      "accounts_receivable": 426768000.0,
+      "goodwill": 3676705000.0,
+      "cfo": 1322189000.0,
+      "cfi": -6437695000.0,
+      "cff": 4577120000.0,
+      "depr_amort": 897835000.0
+    },
+    "2022": {
+      "revenue": 3343681000.0,
+      "net_income": 869408000.0,
+      "interest_expense": 465223000.0,
+      "income_tax_expense": 45183000.0,
+      "total_assets": 49673092000.0,
+      "total_liabilities": 20829803000.0,
+      "total_equity": 28713149000.0,
+      "cash_and_equiv": 171102000.0,
+      "accounts_receivable": 543237000.0,
+      "goodwill": 3731478000.0,
+      "cfo": 2563856000.0,
+      "cfi": -8387076000.0,
+      "cff": 5738243000.0,
+      "depr_amort": 1670389000.0
+    },
+    "2023": {
+      "revenue": 4078993000.0,
+      "net_income": 872309000.0,
+      "interest_expense": 730423000.0,
+      "income_tax_expense": 52021000.0,
+      "total_assets": 57779357000.0,
+      "total_liabilities": 24672388000.0,
+      "total_equity": 32941467000.0,
+      "cash_and_equiv": 232923000.0,
+      "accounts_receivable": 710536000.0,
+      "goodwill": 3731478000.0,
+      "cfo": 2958769000.0,
+      "cfi": -9354854000.0,
+      "cff": 6437356000.0,
+      "depr_amort": 1895177000.0
+    },
+    "2024": {
+      "revenue": 5271142000.0,
+      "net_income": 860772000.0,
+      "income_tax_expense": 66601000.0,
+      "total_assets": 68835039000.0,
+      "total_liabilities": 29783353000.0,
+      "total_equity": 38840738000.0,
+      "cash_and_equiv": 444962000.0,
+      "accounts_receivable": 877668000.0,
+      "goodwill": 4932199000.0,
+      "cfo": 3573276000.0,
+      "cfi": -3342883000.0,
+      "cff": -21158000.0,
+      "depr_amort": 2395644000.0
+    }
+  }
+}

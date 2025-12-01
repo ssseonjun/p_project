@@ -1,0 +1,73 @@
+{
+  "symbol": "EG",
+  "name": "Everest Group",
+  "cik": "0001095073",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 9598000000.0,
+      "income_tax_expense": 71000000.0,
+      "total_assets": 32711503000.0,
+      "total_liabilities": 22985327000.0,
+      "total_equity": 9726000000.0,
+      "cfo": 2874000000.0,
+      "cfi": -3683000000.0,
+      "cff": 800000000.0,
+      "share_repurchases": 200000000.0
+    },
+    "2021": {
+      "revenue": 11866000000.0,
+      "net_income": 1379000000.0,
+      "income_tax_expense": 167000000.0,
+      "total_assets": 38185000000.0,
+      "total_liabilities": 28046000000.0,
+      "total_equity": 10139000000.0,
+      "cfo": 3833000000.0,
+      "cfi": -3869000000.0,
+      "cff": 674000000.0,
+      "share_repurchases": 225000000.0
+    },
+    "2022": {
+      "revenue": 12060000000.0,
+      "net_income": 597000000.0,
+      "income_tax_expense": -9000000.0,
+      "total_assets": 39966000000.0,
+      "total_liabilities": 31525000000.0,
+      "total_equity": 8441000000.0,
+      "cfo": 3695000000.0,
+      "cfi": -3418000000.0,
+      "cff": -359000000.0,
+      "share_repurchases": 61000000.0
+    },
+    "2023": {
+      "revenue": 14587000000.0,
+      "net_income": 2517000000.0,
+      "income_tax_expense": -363000000.0,
+      "total_assets": 49399000000.0,
+      "total_liabilities": 36197000000.0,
+      "total_equity": 13202000000.0,
+      "cfo": 4553000000.0,
+      "cfi": -5902000000.0,
+      "cff": 1409000000.0,
+      "share_repurchases": 0.0
+    },
+    "2024": {
+      "revenue": 17281000000.0,
+      "net_income": 1373000000.0,
+      "income_tax_expense": 120000000.0,
+      "total_assets": 56341000000.0,
+      "total_liabilities": 42466000000.0,
+      "total_equity": 13875000000.0,
+      "cfo": 4957000000.0,
+      "cfi": -4478000000.0,
+      "cff": -383000000.0,
+      "share_repurchases": 200000000.0
+    }
+  }
+}

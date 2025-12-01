@@ -1,0 +1,87 @@
+{
+  "symbol": "RF",
+  "name": "Regions Financial Corporation",
+  "cik": "0001281761",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "net_income": 1094000000.0,
+      "interest_expense": 368000000.0,
+      "income_tax_expense": 220000000.0,
+      "total_assets": 147389000000.0,
+      "total_liabilities": 129278000000.0,
+      "total_equity": 18111000000.0,
+      "ppe": 1897000000.0,
+      "goodwill": 5190000000.0,
+      "cfo": 2324000000.0,
+      "cfi": -4853000000.0,
+      "cff": 16371000000.0,
+      "share_repurchases": 0.0
+    },
+    "2021": {
+      "operating_income": 46000000.0,
+      "net_income": 2521000000.0,
+      "interest_expense": 167000000.0,
+      "income_tax_expense": 694000000.0,
+      "total_assets": 162938000000.0,
+      "total_liabilities": 144612000000.0,
+      "total_equity": 18326000000.0,
+      "ppe": 1814000000.0,
+      "goodwill": 5744000000.0,
+      "cfo": 3030000000.0,
+      "cfi": -2865000000.0,
+      "cff": 11290000000.0,
+      "share_repurchases": 467000000.0
+    },
+    "2022": {
+      "operating_income": 56000000.0,
+      "net_income": 2245000000.0,
+      "interest_expense": 316000000.0,
+      "income_tax_expense": 631000000.0,
+      "total_assets": 155220000000.0,
+      "total_liabilities": 139269000000.0,
+      "total_equity": 15947000000.0,
+      "ppe": 1718000000.0,
+      "goodwill": 5733000000.0,
+      "cfo": 3102000000.0,
+      "cfi": -12941000000.0,
+      "cff": -8345000000.0,
+      "share_repurchases": 230000000.0
+    },
+    "2023": {
+      "operating_income": 212000000.0,
+      "net_income": 2074000000.0,
+      "interest_expense": 1577000000.0,
+      "income_tax_expense": 533000000.0,
+      "total_assets": 152194000000.0,
+      "total_liabilities": 134701000000.0,
+      "total_equity": 17429000000.0,
+      "ppe": 1642000000.0,
+      "goodwill": 5733000000.0,
+      "cfo": 2308000000.0,
+      "cfi": -1607000000.0,
+      "cff": -5127000000.0,
+      "share_repurchases": 252000000.0
+    },
+    "2024": {
+      "operating_income": 95000000.0,
+      "net_income": 1893000000.0,
+      "income_tax_expense": 461000000.0,
+      "total_assets": 157302000000.0,
+      "total_liabilities": 139392000000.0,
+      "total_equity": 17879000000.0,
+      "ppe": 1673000000.0,
+      "goodwill": 5733000000.0,
+      "cfo": 1598000000.0,
+      "cfi": -262000000.0,
+      "cff": 2575000000.0,
+      "share_repurchases": 348000000.0
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "symbol": "VTR",
+  "name": "Ventas",
+  "cik": "0000740260",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 921165000.0,
+      "interest_expense": 469541000.0,
+      "income_tax_expense": -96534000.0,
+      "total_assets": 23929404000.0,
+      "total_liabilities": 13415723000.0,
+      "total_equity": 10180167000.0,
+      "cash_and_equiv": 413327000.0,
+      "goodwill": 1051650000.0,
+      "cfo": 1450176000.0,
+      "cfi": 154295000.0,
+      "cff": -1300021000.0
+    },
+    "2021": {
+      "revenue": 3828007000.0,
+      "interest_expense": 440089000.0,
+      "income_tax_expense": 4827000.0,
+      "total_assets": 24717786000.0,
+      "total_liabilities": 13491743000.0,
+      "total_equity": 10854385000.0,
+      "cash_and_equiv": 149725000.0,
+      "goodwill": 1046140000.0,
+      "cfo": 1026116000.0,
+      "cfi": -724140000.0,
+      "cff": -558466000.0
+    },
+    "2022": {
+      "revenue": 4129193000.0,
+      "interest_expense": 467557000.0,
+      "income_tax_expense": -16926000.0,
+      "total_assets": 24157840000.0,
+      "total_liabilities": 13671513000.0,
+      "total_equity": 10152968000.0,
+      "cash_and_equiv": 122564000.0,
+      "goodwill": 1044415000.0,
+      "cfo": 1120163000.0,
+      "cfi": -859218000.0,
+      "cff": -283928000.0
+    },
+    "2023": {
+      "revenue": 4497827000.0,
+      "interest_expense": 574112000.0,
+      "income_tax_expense": -9539000.0,
+      "total_assets": 24725433000.0,
+      "total_liabilities": 14878392000.0,
+      "total_equity": 9488058000.0,
+      "cash_and_equiv": 508794000.0,
+      "goodwill": 1045176000.0,
+      "cfo": 1119873000.0,
+      "cfi": -184664000.0,
+      "cff": -543749000.0
+    },
+    "2024": {
+      "revenue": 4924266000.0,
+      "interest_expense": 602835000.0,
+      "income_tax_expense": -37775000.0,
+      "total_assets": 26186906000.0,
+      "total_liabilities": 15047081000.0,
+      "total_equity": 10771267000.0,
+      "cash_and_equiv": 897850000.0,
+      "goodwill": 1044915000.0,
+      "cfo": 1329625000.0,
+      "cfi": -2377089000.0,
+      "cff": 1445220000.0
+    }
+  }
+}

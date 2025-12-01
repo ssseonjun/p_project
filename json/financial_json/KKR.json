@@ -1,0 +1,79 @@
+{
+  "symbol": "KKR",
+  "name": "KKR & Co.",
+  "cik": "0001404912",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 4230891000.0,
+      "net_income": 2002509000.0,
+      "interest_expense": 969871000.0,
+      "income_tax_expense": 609097000.0,
+      "total_assets": 79806502000.0,
+      "total_liabilities": 39006586000.0,
+      "total_equity": 13716818000.0,
+      "cash_and_equiv": 5363009000.0,
+      "ppe": 760606000.0,
+      "goodwill": 83500000.0,
+      "cfo": -5953693000.0,
+      "cfi": -153386000.0,
+      "cff": 9803704000.0,
+      "share_repurchases": 246160000.0
+    },
+    "2021": {
+      "revenue": 16226040000.0,
+      "net_income": 4732406000.0,
+      "interest_expense": 1070368000.0,
+      "income_tax_expense": 1394882000.0,
+      "total_equity": 17582164000.0,
+      "cfo": -7176708000.0,
+      "cfi": -9605548000.0,
+      "cff": 20363994000.0,
+      "share_repurchases": 269710000.0
+    },
+    "2022": {
+      "revenue": 5704180000.0,
+      "net_income": -521664000.0,
+      "interest_expense": 1550777000.0,
+      "income_tax_expense": 125393000.0,
+      "total_assets": 275346636000.0,
+      "total_liabilities": 219975946000.0,
+      "total_equity": 18807767000.0,
+      "cfo": -5279259000.0,
+      "cfi": -13647272000.0,
+      "cff": 22055366000.0,
+      "share_repurchases": 346651000.0
+    },
+    "2023": {
+      "revenue": 14499312000.0,
+      "net_income": 3732261000.0,
+      "interest_expense": 2772088000.0,
+      "income_tax_expense": 1197523000.0,
+      "total_assets": 317294194000.0,
+      "total_liabilities": 258915282000.0,
+      "total_equity": 22858694000.0,
+      "cfo": -1493812000.0,
+      "cfi": -3882936000.0,
+      "cff": 12774088000.0,
+      "share_repurchases": 289844000.0
+    },
+    "2024": {
+      "revenue": 21878698000.0,
+      "net_income": 3076245000.0,
+      "income_tax_expense": 954396000.0,
+      "total_assets": 360099411000.0,
+      "total_liabilities": 298114719000.0,
+      "total_equity": 23651568000.0,
+      "cfo": 6649878000.0,
+      "cfi": -19047424000.0,
+      "cff": 7076330000.0,
+      "share_repurchases": 0.0
+    }
+  }
+}

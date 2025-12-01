@@ -1,0 +1,93 @@
+{
+  "symbol": "AXP",
+  "name": "American Express",
+  "cik": "0000004962",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "net_income": 1438000000.0,
+      "interest_expense": 2098000000.0,
+      "income_tax_expense": 1161000000.0,
+      "total_assets": 191000000000.0,
+      "total_liabilities": 168383000000.0,
+      "total_equity": 22984000000.0,
+      "ppe": 5015000000.0,
+      "goodwill": 3852000000.0,
+      "cfo": 5591000000.0,
+      "cfi": 11632000000.0,
+      "cff": -9068000000.0,
+      "capex": 1478000000.0,
+      "dividends": 1474000000.0,
+      "share_repurchases": 1029000000.0
+    },
+    "2021": {
+      "net_income": 8060000000.0,
+      "interest_expense": 1283000000.0,
+      "income_tax_expense": 2629000000.0,
+      "total_assets": 189000000000.0,
+      "total_liabilities": 166371000000.0,
+      "total_equity": 22177000000.0,
+      "ppe": 4988000000.0,
+      "goodwill": 3804000000.0,
+      "cfo": 14645000000.0,
+      "cfi": -10529000000.0,
+      "cff": -14933000000.0,
+      "capex": 1550000000.0,
+      "dividends": 1448000000.0,
+      "share_repurchases": 7652000000.0
+    },
+    "2022": {
+      "net_income": 7514000000.0,
+      "interest_expense": 2763000000.0,
+      "income_tax_expense": 2071000000.0,
+      "total_assets": 228354000000.0,
+      "total_liabilities": 203643000000.0,
+      "total_equity": 24711000000.0,
+      "ppe": 5215000000.0,
+      "goodwill": 3786000000.0,
+      "cfo": 21079000000.0,
+      "cfi": -33689000000.0,
+      "cff": 24509000000.0,
+      "capex": 1855000000.0,
+      "dividends": 1565000000.0,
+      "share_repurchases": 3502000000.0
+    },
+    "2023": {
+      "net_income": 8374000000.0,
+      "interest_expense": 6849000000.0,
+      "income_tax_expense": 2139000000.0,
+      "total_assets": 261108000000.0,
+      "total_liabilities": 233051000000.0,
+      "total_equity": 28057000000.0,
+      "ppe": 5138000000.0,
+      "goodwill": 3851000000.0,
+      "cfo": 18559000000.0,
+      "cfi": -24433000000.0,
+      "cff": 18379000000.0,
+      "capex": 1563000000.0,
+      "dividends": 1780000000.0,
+      "share_repurchases": 3650000000.0
+    },
+    "2024": {
+      "net_income": 10129000000.0,
+      "income_tax_expense": 2766000000.0,
+      "total_assets": 271461000000.0,
+      "total_liabilities": 241197000000.0,
+      "total_equity": 30264000000.0,
+      "ppe": 5371000000.0,
+      "goodwill": 4187000000.0,
+      "cfo": 14050000000.0,
+      "cfi": -24402000000.0,
+      "cff": 4436000000.0,
+      "capex": 1911000000.0,
+      "dividends": 1999000000.0,
+      "share_repurchases": 6020000000.0
+    }
+  }
+}

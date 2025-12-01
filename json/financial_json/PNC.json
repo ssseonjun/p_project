@@ -1,0 +1,87 @@
+{
+  "symbol": "PNC",
+  "name": "PNC Financial Services",
+  "cik": "0000713676",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 16901000000.0,
+      "interest_expense": 1361000000.0,
+      "income_tax_expense": 426000000.0,
+      "total_assets": 466679000000.0,
+      "total_liabilities": 412638000000.0,
+      "total_equity": 54010000000.0,
+      "ppe": 7687000000.0,
+      "goodwill": 9233000000.0,
+      "cfo": 4659000000.0,
+      "cfi": -51122000000.0,
+      "cff": 48419000000.0,
+      "depr_amort": 983000000.0,
+      "share_repurchases": 1624000000.0
+    },
+    "2021": {
+      "revenue": 19211000000.0,
+      "interest_expense": 487000000.0,
+      "income_tax_expense": 1263000000.0,
+      "total_assets": 557191000000.0,
+      "total_liabilities": 501465000000.0,
+      "total_equity": 55695000000.0,
+      "ppe": 8593000000.0,
+      "goodwill": 10916000000.0,
+      "cfo": 7214000000.0,
+      "cfi": -2795000000.0,
+      "cff": -3432000000.0,
+      "depr_amort": 1066000000.0,
+      "share_repurchases": 1079000000.0
+    },
+    "2022": {
+      "revenue": 21120000000.0,
+      "interest_expense": 2422000000.0,
+      "income_tax_expense": 1360000000.0,
+      "total_assets": 557263000000.0,
+      "total_liabilities": 511451000000.0,
+      "total_equity": 45774000000.0,
+      "ppe": 8754000000.0,
+      "goodwill": 10987000000.0,
+      "cfo": 9083000000.0,
+      "cfi": -60358000000.0,
+      "cff": 3384000000.0,
+      "depr_amort": 1139000000.0,
+      "share_repurchases": 3731000000.0
+    },
+    "2023": {
+      "revenue": 21490000000.0,
+      "interest_expense": 10392000000.0,
+      "income_tax_expense": 1089000000.0,
+      "total_assets": 561580000000.0,
+      "total_liabilities": 510439000000.0,
+      "total_equity": 51105000000.0,
+      "ppe": 8517000000.0,
+      "goodwill": 10932000000.0,
+      "cfo": 10111000000.0,
+      "cfi": 10105000000.0,
+      "cff": -3854000000.0,
+      "depr_amort": 1149000000.0,
+      "share_repurchases": 651000000.0
+    },
+    "2024": {
+      "revenue": 21555000000.0,
+      "income_tax_expense": 1289000000.0,
+      "total_assets": 560038000000.0,
+      "total_liabilities": 505569000000.0,
+      "total_equity": 54425000000.0,
+      "ppe": 8672000000.0,
+      "goodwill": 10932000000.0,
+      "cfo": 7880000000.0,
+      "cfi": -3232000000.0,
+      "cff": -9122000000.0,
+      "share_repurchases": 687000000.0
+    }
+  }
+}

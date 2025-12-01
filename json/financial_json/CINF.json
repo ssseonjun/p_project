@@ -1,0 +1,91 @@
+{
+  "symbol": "CINF",
+  "name": "Cincinnati Financial",
+  "cik": "0000020286",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 2694000000.0,
+      "net_income": 1049000000.0,
+      "interest_expense": 54000000.0,
+      "income_tax_expense": 283000000.0,
+      "total_assets": 27542000000.0,
+      "total_liabilities": 16753000000.0,
+      "total_equity": 10789000000.0,
+      "cash_and_equiv": 900000000.0,
+      "ppe": 213000000.0,
+      "cfo": 1491000000.0,
+      "cfi": -560000000.0,
+      "cff": -798000000.0,
+      "capex": 20000000.0,
+      "share_repurchases": 261000000.0
+    },
+    "2021": {
+      "revenue": 9626000000.0,
+      "net_income": 2968000000.0,
+      "interest_expense": 53000000.0,
+      "income_tax_expense": 730000000.0,
+      "total_assets": 31387000000.0,
+      "total_liabilities": 18282000000.0,
+      "total_equity": 12764000000.0,
+      "cash_and_equiv": 1139000000.0,
+      "ppe": 205000000.0,
+      "cfo": 1981000000.0,
+      "cfi": -1057000000.0,
+      "cff": -685000000.0,
+      "capex": 15000000.0,
+      "share_repurchases": 144000000.0
+    },
+    "2022": {
+      "revenue": 6563000000.0,
+      "net_income": -487000000.0,
+      "interest_expense": 53000000.0,
+      "income_tax_expense": -207000000.0,
+      "total_assets": 29732000000.0,
+      "total_liabilities": 19170000000.0,
+      "total_equity": 10562000000.0,
+      "ppe": 202000000.0,
+      "cfo": 2052000000.0,
+      "cfi": -933000000.0,
+      "cff": -994000000.0,
+      "capex": 15000000.0,
+      "share_repurchases": 410000000.0
+    },
+    "2023": {
+      "revenue": 10013000000.0,
+      "net_income": 1843000000.0,
+      "interest_expense": 54000000.0,
+      "income_tax_expense": 433000000.0,
+      "total_assets": 32769000000.0,
+      "total_liabilities": 20671000000.0,
+      "total_equity": 12098000000.0,
+      "ppe": 208000000.0,
+      "cfo": 2052000000.0,
+      "cfi": -1608000000.0,
+      "cff": -801000000.0,
+      "capex": 18000000.0,
+      "share_repurchases": 67000000.0
+    },
+    "2024": {
+      "revenue": 11337000000.0,
+      "net_income": 2292000000.0,
+      "interest_expense": 53000000.0,
+      "income_tax_expense": 566000000.0,
+      "total_assets": 36501000000.0,
+      "total_liabilities": 22566000000.0,
+      "total_equity": 13935000000.0,
+      "ppe": 214000000.0,
+      "cfo": 2649000000.0,
+      "cfi": -1696000000.0,
+      "cff": -877000000.0,
+      "capex": 22000000.0,
+      "share_repurchases": 126000000.0
+    }
+  }
+}

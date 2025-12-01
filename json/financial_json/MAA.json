@@ -1,0 +1,84 @@
+{
+  "symbol": "MAA",
+  "name": "Mid-America Apartment Communities",
+  "cik": "0000912595",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 1677984000.0,
+      "net_income": 254962000.0,
+      "interest_expense": 167562000.0,
+      "income_tax_expense": 3327000.0,
+      "total_assets": 11194791000.0,
+      "total_liabilities": 5090986000.0,
+      "total_equity": 5871633000.0,
+      "cash_and_equiv": 25198000.0,
+      "cfo": 823949000.0,
+      "cfi": -484731000.0,
+      "cff": -374144000.0,
+      "depr_amort": 511678000.0
+    },
+    "2021": {
+      "revenue": 1778082000.0,
+      "net_income": 533791000.0,
+      "interest_expense": 156881000.0,
+      "income_tax_expense": 13637000.0,
+      "total_assets": 11285182000.0,
+      "total_liabilities": 5101090000.0,
+      "total_equity": 5965177000.0,
+      "cash_and_equiv": 54302000.0,
+      "cfo": 894967000.0,
+      "cfi": -253586000.0,
+      "cff": -546398000.0,
+      "depr_amort": 534415000.0
+    },
+    "2022": {
+      "revenue": 2019866000.0,
+      "net_income": 637436000.0,
+      "interest_expense": 154747000.0,
+      "income_tax_expense": -6208000.0,
+      "total_assets": 11241165000.0,
+      "total_liabilities": 5030746000.0,
+      "total_equity": 6005089000.0,
+      "cash_and_equiv": 38659000.0,
+      "cfo": 1058479000.0,
+      "cfi": -405236000.0,
+      "cff": -722770000.0,
+      "depr_amort": 544004000.0
+    },
+    "2023": {
+      "revenue": 2148468000.0,
+      "net_income": 552806000.0,
+      "interest_expense": 149234000.0,
+      "income_tax_expense": 4744000.0,
+      "total_assets": 11484503000.0,
+      "total_liabilities": 5185381000.0,
+      "total_equity": 6094071000.0,
+      "cash_and_equiv": 41314000.0,
+      "cfo": 1137187000.0,
+      "cfi": -775262000.0,
+      "cff": -367905000.0,
+      "depr_amort": 565857000.0
+    },
+    "2024": {
+      "revenue": 2191015000.0,
+      "net_income": 527543000.0,
+      "interest_expense": 168544000.0,
+      "income_tax_expense": 5240000.0,
+      "total_assets": 11812369000.0,
+      "total_liabilities": 5664705000.0,
+      "total_equity": 5942131000.0,
+      "cash_and_equiv": 43018000.0,
+      "cfo": 1098292000.0,
+      "cfi": -825499000.0,
+      "cff": -271123000.0,
+      "depr_amort": 586402000.0
+    }
+  }
+}

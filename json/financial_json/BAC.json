@@ -1,0 +1,93 @@
+{
+  "symbol": "BAC",
+  "name": "Bank of America",
+  "cik": "0000070858",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 85528000000.0,
+      "net_income": 17894000000.0,
+      "interest_expense": 8225000000.0,
+      "income_tax_expense": 1101000000.0,
+      "total_assets": 2819627000000.0,
+      "total_liabilities": 2546703000000.0,
+      "total_equity": 272924000000.0,
+      "ppe": 11000000000.0,
+      "goodwill": 68951000000.0,
+      "cfo": 37993000000.0,
+      "cfi": -177665000000.0,
+      "cff": 355819000000.0,
+      "depr_amort": 1843000000.0,
+      "share_repurchases": 7025000000.0
+    },
+    "2021": {
+      "revenue": 89113000000.0,
+      "net_income": 31978000000.0,
+      "interest_expense": 4738000000.0,
+      "income_tax_expense": 1998000000.0,
+      "total_assets": 3169495000000.0,
+      "total_liabilities": 2899429000000.0,
+      "total_equity": 270066000000.0,
+      "ppe": 10833000000.0,
+      "goodwill": 69022000000.0,
+      "cfo": -7193000000.0,
+      "cfi": -313291000000.0,
+      "cff": 291650000000.0,
+      "depr_amort": 1898000000.0,
+      "share_repurchases": 25126000000.0
+    },
+    "2022": {
+      "revenue": 94950000000.0,
+      "net_income": 27528000000.0,
+      "interest_expense": 20103000000.0,
+      "income_tax_expense": 3441000000.0,
+      "total_assets": 3051375000000.0,
+      "total_liabilities": 2778178000000.0,
+      "total_equity": 273197000000.0,
+      "ppe": 11510000000.0,
+      "goodwill": 69022000000.0,
+      "cfo": -6327000000.0,
+      "cfi": -2529000000.0,
+      "cff": -106039000000.0,
+      "depr_amort": 1978000000.0,
+      "share_repurchases": 5073000000.0
+    },
+    "2023": {
+      "revenue": 98581000000.0,
+      "net_income": 26515000000.0,
+      "interest_expense": 73331000000.0,
+      "income_tax_expense": 1827000000.0,
+      "total_assets": 3180151000000.0,
+      "total_liabilities": 2888505000000.0,
+      "total_equity": 291646000000.0,
+      "ppe": 11855000000.0,
+      "goodwill": 69021000000.0,
+      "cfo": 44982000000.0,
+      "cfi": -35387000000.0,
+      "cff": 93345000000.0,
+      "depr_amort": 2057000000.0,
+      "share_repurchases": 4576000000.0
+    },
+    "2024": {
+      "revenue": 101887000000.0,
+      "net_income": 27132000000.0,
+      "income_tax_expense": 2122000000.0,
+      "total_assets": 3261519000000.0,
+      "total_liabilities": 2965960000000.0,
+      "total_equity": 295559000000.0,
+      "ppe": 12168000000.0,
+      "goodwill": 69021000000.0,
+      "cfo": -8805000000.0,
+      "cfi": -90693000000.0,
+      "cff": 60369000000.0,
+      "depr_amort": 2189000000.0,
+      "share_repurchases": 13104000000.0
+    }
+  }
+}

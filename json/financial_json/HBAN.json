@@ -1,0 +1,92 @@
+{
+  "symbol": "HBAN",
+  "name": "Huntington Bancshares",
+  "cik": "0000049196",
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "yearly_fs": {
+    "2020": {
+      "revenue": 884000000.0,
+      "net_income": 817000000.0,
+      "interest_expense": 423000000.0,
+      "income_tax_expense": 155000000.0,
+      "total_assets": 123038000000.0,
+      "total_liabilities": 110045000000.0,
+      "total_equity": 12993000000.0,
+      "ppe": 757000000.0,
+      "goodwill": 1990000000.0,
+      "cfo": 1323000000.0,
+      "cfi": -8639000000.0,
+      "cff": 12741000000.0,
+      "capex": 119000000.0,
+      "share_repurchases": 92000000.0
+    },
+    "2021": {
+      "revenue": 1113000000.0,
+      "net_income": 1295000000.0,
+      "interest_expense": 89000000.0,
+      "income_tax_expense": 294000000.0,
+      "total_assets": 174064000000.0,
+      "total_liabilities": 154746000000.0,
+      "total_equity": 19297000000.0,
+      "ppe": 1164000000.0,
+      "goodwill": 5349000000.0,
+      "cfo": 2062000000.0,
+      "cfi": -3962000000.0,
+      "cff": 827000000.0,
+      "capex": 247000000.0,
+      "share_repurchases": 650000000.0
+    },
+    "2022": {
+      "revenue": 1318000000.0,
+      "net_income": 2238000000.0,
+      "interest_expense": 696000000.0,
+      "income_tax_expense": 515000000.0,
+      "total_assets": 182906000000.0,
+      "total_liabilities": 165137000000.0,
+      "total_equity": 17731000000.0,
+      "ppe": 1156000000.0,
+      "goodwill": 5571000000.0,
+      "cfo": 4027000000.0,
+      "cfi": -11609000000.0,
+      "cff": 8764000000.0,
+      "capex": 214000000.0,
+      "share_repurchases": 0.0
+    },
+    "2023": {
+      "revenue": 1400000000.0,
+      "net_income": 1951000000.0,
+      "interest_expense": 3477000000.0,
+      "income_tax_expense": 413000000.0,
+      "total_assets": 189368000000.0,
+      "total_liabilities": 169970000000.0,
+      "total_equity": 19353000000.0,
+      "ppe": 1109000000.0,
+      "goodwill": 5561000000.0,
+      "cfo": 2657000000.0,
+      "cfi": -2997000000.0,
+      "cff": 3765000000.0,
+      "capex": 140000000.0,
+      "share_repurchases": 0.0
+    },
+    "2024": {
+      "revenue": 1468000000.0,
+      "net_income": 1940000000.0,
+      "income_tax_expense": 443000000.0,
+      "total_assets": 204230000000.0,
+      "total_liabilities": 184448000000.0,
+      "total_equity": 19740000000.0,
+      "ppe": 1066000000.0,
+      "goodwill": 5561000000.0,
+      "cfo": 1815000000.0,
+      "cfi": -12119000000.0,
+      "cff": 13022000000.0,
+      "capex": 143000000.0
+    }
+  }
+}
