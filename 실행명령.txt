@@ -10,3 +10,23 @@ python preprocessing.py   # MODEL_KIND="finbert"
 python preprocessing.py   # MODEL_KIND="sbert"
 # test_vec_combo.csv 안에 FinBERT_Embedding / SBERT_Embedding 두 컬럼 만들어 둔 뒤
 python classification_demo.py --mode finbert_sbert --topk 10
+
+
+========================= 12.01 =========================
+python model_match.py \
+  --input_csv learning/tweets/tweets_labelled.csv \
+  --output_csv out/tweets_with_pred.csv \
+  --top_k 10 \
+  --sim_threshold 0.1 \
+  --text_w_sbert 0.5 \
+  --text_w_finbert 0.5 \
+  --comp_w_sbert 0.5 \
+  --comp_w_finbert 0.5
+
+이 CSV를 GPT/수작업으로 라벨링해서:
+valid_companies (이 트윗과 진짜 연관)
+invalid_companies (이상한 기업들)
+
+python model_tune.py \
+  --input_csv out/tweets_labeled.csv \
+  --output_report grid_results.csv

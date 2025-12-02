@@ -1,0 +1,104 @@
+[
+  {
+    "ticker": "AJG",
+    "name": "Arthur J. Gallagher & Co.",
+    "cik": "0000354190",
+    "reason": "no_item1"
+  },
+  {
+    "ticker": "C",
+    "name": "Citigroup",
+    "cik": "0000831001",
+    "reason": "no_item1_block"
+  },
+  {
+    "ticker": "COP",
+    "name": "ConocoPhillips",
+    "cik": "0001163165",
+    "reason": "no_item1"
+  },
+  {
+    "ticker": "FCX",
+    "name": "Freeport-McMoRan",
+    "cik": "0000831259",
+    "reason": "no_item1"
+  },
+  {
+    "ticker": "GE",
+    "name": "GE Aerospace",
+    "cik": "0000040545",
+    "reason": "no_item1_block"
+  },
+  {
+    "ticker": "HON",
+    "name": "Honeywell",
+    "cik": "0000773840",
+    "reason": "no_item1_block"
+  },
+  {
+    "ticker": "INTC",
+    "name": "Intel",
+    "cik": "0000050863",
+    "reason": "no_item1_block"
+  },
+  {
+    "ticker": "LYB",
+    "name": "LyondellBasell",
+    "cik": "0001489393",
+    "reason": "no_item1"
+  },
+  {
+    "ticker": "MCD",
+    "name": "McDonald's",
+    "cik": "0000063908",
+    "reason": "no_item1_block"
+  },
+  {
+    "ticker": "MS",
+    "name": "Morgan Stanley",
+    "cik": "0000895421",
+    "reason": "no_item1_block"
+  },
+  {
+    "ticker": "NSC",
+    "name": "Norfolk Southern",
+    "cik": "0000702165",
+    "reason": "no_item1"
+  },
+  {
+    "ticker": "ODFL",
+    "name": "Old Dominion",
+    "cik": "0000878927",
+    "reason": "no_item1"
+  },
+  {
+    "ticker": "PSKY",
+    "name": "Paramount Skydance Corporation",
+    "cik": "0002041610",
+    "reason": "no_10k"
+  },
+  {
+    "ticker": "PSX",
+    "name": "Phillips 66",
+    "cik": "0001534701",
+    "reason": "no_item1"
+  },
+  {
+    "ticker": "Q",
+    "name": "Qnity Electronics",
+    "cik": "0002058873",
+    "reason": "no_10k"
+  },
+  {
+    "ticker": "SOLS",
+    "name": "Solstice Advanced Materials",
+    "cik": "0002064953",
+    "reason": "no_10k"
+  },
+  {
+    "ticker": "SYF",
+    "name": "Synchrony Financial",
+    "cik": "0001601712",
+    "reason": "no_item1_block"
+  }
+]

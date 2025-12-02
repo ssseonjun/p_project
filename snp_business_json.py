@@ -8,7 +8,6 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
-from transformers import pipeline
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "json"
@@ -16,9 +15,7 @@ SEC_DIR = DATA_DIR / "business_json"
 SEC_DIR.mkdir(parents=True, exist_ok=True)
 
 ITEM1_RAW_DIR = SEC_DIR / "raw"
-ITEM1_SUM_DIR = SEC_DIR / "summary"
 ITEM1_RAW_DIR.mkdir(parents=True, exist_ok=True)
-ITEM1_SUM_DIR.mkdir(parents=True, exist_ok=True)
 
 # SEC 권장: User-Agent에 본인 이름/메일 꼭 넣기
 SEC_HEADERS = {
@@ -27,26 +24,18 @@ SEC_HEADERS = {
     "Host": "data.sec.gov",
 }
 
-# 네가 준 CSV: index,symbol,name,cik
 SP500_LIST_CSV = BASE_DIR / "csv/sp500_list.csv"
 
 
-# -----------------------------
-# 1. S&P500 리스트 로드 (로컬 CSV 사용)
-# -----------------------------
 def load_sp500_list() -> pd.DataFrame:
     if not SP500_LIST_CSV.exists():
-        raise FileNotFoundError(f"{SP500_LIST_CSV} 파일이 없습니다. "
-                                f"index,symbol,name,cik 형식으로 저장해 주세요.")
+        raise FileNotFoundError(
+            f"{SP500_LIST_CSV} 파일이 없습니다. "
+            f"index,symbol,name,cik 형식으로 저장해 주세요."
+        )
 
     df = pd.read_csv(SP500_LIST_CSV)
-
-    # 표준 컬럼명으로 정리
-    df = df.rename(columns={
-        "symbol": "ticker",
-        "name": "name",
-        "cik": "cik",
-    })
+    df = df.rename(columns={"symbol": "ticker", "name": "name", "cik": "cik"})
 
     required = {"ticker", "name", "cik"}
     if not required.issubset(df.columns):
@@ -55,14 +44,7 @@ def load_sp500_list() -> pd.DataFrame:
     return df
 
 
-# -----------------------------
-# 2. 최신 10-K 메타데이터 + HTML
-# -----------------------------
 def get_latest_10k_metadata(cik: str) -> Optional[Dict]:
-    """
-    submissions API에서 최신 10-K 하나 가져오기.
-    cik: 10자리 zero-padding 문자열 ("0001579241")
-    """
     url = f"https://data.sec.gov/submissions/CIK{cik}.json"
     r = requests.get(url, headers=SEC_HEADERS)
     if r.status_code != 200:
@@ -88,15 +70,6 @@ def get_latest_10k_metadata(cik: str) -> Optional[Dict]:
 
 
 def fetch_10k_html(cik: str, accession: str, primary_doc: str) -> str:
-    """
-    예:
-      cik        = "0001579241"
-      accession  = "0001579241-25-000008"
-      primary_doc= "alle-20241231.htm"
-
-    실제 URL:
-      https://www.sec.gov/Archives/edgar/data/1579241/000157924125000008/alle-20241231.htm
-    """
     cik_num = str(int(cik))  # "0001579241" -> "1579241"
     acc_nodash = accession.replace("-", "")
     url = f"https://www.sec.gov/Archives/edgar/data/{cik_num}/{acc_nodash}/{primary_doc}"
@@ -106,164 +79,198 @@ def fetch_10k_html(cik: str, accession: str, primary_doc: str) -> str:
     return r.text
 
 
-# -----------------------------
-# 3. Item 1. Business 추출
-# -----------------------------
-import re
-from typing import List
-
-import re
-from typing import List
-
-def extract_item1_business(text: str, min_chars: int = 400) -> str:
+def extract_itmem1(text: str, min_chars: int = 200) -> str:
     """
-    10-K 전체 텍스트에서 Item 1. Business 섹션 추출.
-
-    로직:
-      1) "Item 1 ... Business" 패턴(start_re)을 전부 찾는다. (TOC + 본문 모두)
-      2) 각 시작점 기준으로,
-         - "Item 1A" 또는
-         - "Item 2"
-         가 나오는 지점을 종료 후보로 본다.
-      3) [start, end) 구간을 잘라서 길이가 min_chars 이상이면 '진짜 섹션 후보'로 채택한다.
-      4) 후보가 여러 개면 가장 긴 섹션을 반환.
-         (목차는 몇 줄 안 되기 때문에 자동으로 걸러짐)
+    10-K 전체 텍스트에서 'Item 1 계열(1,1A,1B,...) ~ 다음 Item 번호(2,3,...) 직전' 구간을 추출.
+    - Item 1/1A/1B가 목차/본문에 여러 번 나와도, 그 중 길이가 min_chars 이상인
+      섹션들만 후보로 두고, 가장 긴 섹션 하나를 반환.
     """
-
     if not text or not text.strip():
         return ""
 
     lower = text.lower()
 
-    # 1) 시작 패턴: Item 1 ... Business
-    #   - "ITEM 1. BUSINESS"
-    #   - "Item 1 Business"
-    #   - "item 1\nbusiness" 등 대응
-    start_re = re.compile(
-        r"item\s*1[\s\.\-]*[\s\S]{0,100}?business",
-        flags=re.IGNORECASE
+    # 모든 item 헤더 위치 잡기: Item 1, 1A, 2, 3, 7A, 10, 11B ...
+    header_re = re.compile(
+        r"item\s*([0-9]{1,2}[a-z]?)\b",
+        flags=re.IGNORECASE,
     )
 
-    # 2) 종료 후보 패턴들
-    #   - Item 1A (Risk Factors)
-    #   - Item 2 (Properties 등)
-    end_res = [
-        re.compile(r"item\s*1a[\s\.\-]*[\s\S]{0,80}?risk", flags=re.IGNORECASE),
-        re.compile(r"item\s*1a[\s\.\-]*", flags=re.IGNORECASE),
-        re.compile(r"item\s*2[\s\.\-]*[\s\S]{0,80}?properties", flags=re.IGNORECASE),
-        re.compile(r"item\s*2[\s\.\-]*", flags=re.IGNORECASE),
-    ]
+    matches = list(header_re.finditer(lower))
+    if not matches:
+        return ""
 
-    candidates: List[str] = []
+    def is_item1_family(item_no: str) -> bool:
+        """
+        '1', '1a', '1b', '1c' 등을 Item 1 계열로 보고,
+        '10', '11' 같은 건 제외하기 위한 헬퍼.
+        """
+        item_no = item_no.lower()
+        if item_no == "1":
+            return True
+        if len(item_no) == 2 and item_no[0] == "1" and item_no[1].isalpha():
+            return True
+        return False
 
-    for m_start in start_re.finditer(lower):
-        start_idx = m_start.start()
+    candidates = []
 
-        end_idx_candidates = []
-        for end_re in end_res:
-            m_end = end_re.search(lower, m_start.end())
-            if m_end:
-                end_idx_candidates.append(m_end.start())
+    # 모든 Item 1 계열 헤더를 시작점으로 삼아, 다음 "비-1계열" item까지를 블록으로 본다.
+    for i, m in enumerate(matches):
+        item_no = m.group(1).lower()
+        if not is_item1_family(item_no):
+            continue
 
-        if end_idx_candidates:
-            end_idx = min(end_idx_candidates)
-        else:
-            # 종료 패턴을 못 찾으면 끝까지를 Item 1 구간으로 가정
-            end_idx = len(text)
+        start_idx = m.start()
+
+        # 다음 "Item 2 이상"이 나오는 지점 찾기
+        end_idx = len(text)
+        for j in range(i + 1, len(matches)):
+            next_item = matches[j].group(1).lower()
+            if not is_item1_family(next_item):
+                end_idx = matches[j].start()
+                break
 
         section = text[start_idx:end_idx].strip()
-
-        # 너무 짧으면 (목차 같은) 가짜로 보고 버린다
         if len(section) >= min_chars:
             candidates.append(section)
 
     if not candidates:
         return ""
 
-    # 여러 후보 중 가장 긴 섹션(= 진짜 본문일 확률이 가장 높음)을 반환
+    # 가장 긴 섹션 = 진짜 본문일 확률이 가장 높음
     best_section = max(candidates, key=len)
     return best_section
 
-# -----------------------------
-# 4. 요약용 헬퍼
-# -----------------------------
-def chunk_text(text: str, max_chars: int = 1800):
-    for i in range(0, len(text), max_chars):
-        yield text[i:i + max_chars]
+
+def split_item1(block_text: str) -> Dict[str, str]:
+    """
+    Item 1 계열 블록 텍스트를 받아서
+      - item1
+      - item1a
+      - item1b
+      ...
+    로 나눠서 dict로 반환.
+
+    규칙:
+      - 'item1'은 무조건 저장.
+      - 'item1a' 이후는:
+          * NOTE0-9(대소문자 무시) 패턴이 존재하고
+          * 전체 길이가 100 미만이면 → 버림.
+    """
+    sections: Dict[str, str] = {}
+
+    if not block_text or not block_text.strip():
+        return sections
+
+    lower = block_text.lower()
+
+    # Item 1, 1A, 1B ... 헤더 찾기
+    #  - group(1)이 ''이면 item1
+    #  - group(1)이 'a','b'면 item1a, item1b
+    header_re = re.compile(
+        r"item\s*1([a-z])?\b",
+        flags=re.IGNORECASE,
+    )
+
+    markers = []
+    for m in header_re.finditer(lower):
+        letter = m.group(1).lower() if m.group(1) else ""
+        label = "item1" if letter == "" else f"item1{letter}"
+        markers.append((m.start(), label))
+
+    if not markers:
+        return sections
+
+    # 출현 순서대로 정렬
+    markers.sort(key=lambda x: x[0])
+
+    # 각 헤더 기준으로 다음 헤더 직전까지 잘라서 섹션 구성
+    for idx, (start_pos, label) in enumerate(markers):
+        if idx + 1 < len(markers):
+            end_pos = markers[idx + 1][0]
+        else:
+            end_pos = len(block_text)
+
+        seg_text = block_text[start_pos:end_pos].strip()
+        if not seg_text:
+            continue
+
+        if label == "item1":
+            # item1은 무조건 저장
+            sections[label] = seg_text
+        else:
+            # item1a, item1b ... 에 대해 NOTE + 길이 필터
+            has_note = re.search(r"note\s*[0-9]", seg_text, flags=re.IGNORECASE) is not None
+            seg_len = len(seg_text)
+
+            if has_note and seg_len < 100:
+                # NOTE0-9 포함 + 길이 < 100 → 버림
+                continue
+            else:
+                sections[label] = seg_text
+
+    return sections
 
 
-def summarize_item1(text: str, summarizer) -> str:
-    if not text.strip():
-        return ""
 
-    chunks = list(chunk_text(text, max_chars=1800))
-    summaries = []
-    for ch in chunks:
-        out = summarizer(
-            ch,
-            max_length=256,
-            min_length=64,
-            do_sample=False,
-        )
-        summaries.append(out[0]["summary_text"])
-    return "\n".join(summaries)
-
-
-# -----------------------------
-# 5. main
-# -----------------------------
 def main():
-    # 1) S&P500 리스트 로드
     sp500_df = load_sp500_list()
     print(f"[INFO] Total S&P500 companies: {len(sp500_df)}")
 
-    # 2) 요약 모델 로드
-    summarizer = pipeline(
-        "summarization",
-        model="sshleifer/distilbart-cnn-12-6",
-        tokenizer="sshleifer/distilbart-cnn-12-6",
-    )
-
     miss_list = []
 
-    for _, row in tqdm(sp500_df.iterrows()[158], total=len(sp500_df), desc="SEC Item1 -> JSON"):
+    start_idx = 0
+    for _, row in tqdm(
+        sp500_df.iloc[start_idx:].iterrows(),
+        total=len(sp500_df) - start_idx,
+        desc="SEC Item1 -> JSON (raw only)",
+    ):
         ticker = row["ticker"]
         name = row["name"]
         cik = str(row["cik"]).zfill(10)
 
-        raw_path = ITEM1_RAW_DIR / f"{ticker}.json"
-        sum_path = ITEM1_SUM_DIR / f"{ticker}.json"
-        if raw_path.exists() and sum_path.exists():
+        raw_path = SEC_DIR / f"{ticker}.json"
+        if raw_path.exists():
             continue
 
-        # 3) 최신 10-K 메타데이터
         meta = get_latest_10k_metadata(cik)
         if meta is None:
             print(f"[MISS 10-K] {ticker} {name} (CIK={cik})")
-            miss_list.append({"ticker": ticker, "name": name, "cik": cik, "reason": "no_10k"})
+            miss_list.append(
+                {"ticker": ticker, "name": name, "cik": cik, "reason": "no_10k"}
+            )
             continue
 
-        # 4) 10-K HTML 다운로드 + soup 생성
         try:
             html = fetch_10k_html(cik, meta["accession"], meta["primary_doc"])
         except Exception as e:
             print(f"[ERR GET HTML] {ticker} {name}: {e}")
-            miss_list.append({"ticker": ticker, "name": name, "cik": cik, "reason": "html_error"})
+            miss_list.append(
+                {"ticker": ticker, "name": name, "cik": cik, "reason": "html_error"}
+            )
             continue
 
         soup = BeautifulSoup(html, "html.parser")
         full_text = soup.get_text("\n")
 
-
-        # 5) Item 1. Business 추출
-        item1_text = extract_item1_business(full_text, min_chars=400)
-
-        if not item1_text.strip():
-            print(f"[MISS ITEM1] {ticker} {name}")
-            miss_list.append({"ticker": ticker, "name": name, "cik": cik, "reason": "no_item1"})
+        item1_block = extract_itmem1(full_text, min_chars=400)
+        if not item1_block.strip():
+            print(f"[MISS ITEM1_BLOCK] {ticker} {name}")
+            miss_list.append(
+                {"ticker": ticker, "name": name, "cik": cik, "reason": "no_item1_block"}
+            )
             continue
 
-        # 6) raw JSON 저장
+        sections = split_item1(item1_block)
+
+        item1_text = sections.get("item1", "")
+        if not item1_text.strip():
+            print(f"[MISS ITEM1] {ticker} {name}")
+            miss_list.append(
+                {"ticker": ticker, "name": name, "cik": cik, "reason": "no_item1"}
+            )
+            continue
+
         raw_data = {
             "ticker": ticker,
             "cik": cik,
@@ -271,24 +278,11 @@ def main():
             "filing_date": meta["filing_date"],
             "accession": meta["accession"],
             "primary_doc": meta["primary_doc"],
-            "item1_text": item1_text,
+            "item_sections": sections,
         }
         with open(raw_path, "w", encoding="utf-8") as f:
             json.dump(raw_data, f, ensure_ascii=False, indent=2)
 
-        # 7) 요약 생성 + 저장
-        summary_text = summarize_item1(item1_text, summarizer)
-        sum_data = {
-            "ticker": ticker,
-            "cik": cik,
-            "company_name": meta["company_name"],
-            "filing_date": meta["filing_date"],
-            "item1_summary": summary_text,
-        }
-        with open(sum_path, "w", encoding="utf-8") as f:
-            json.dump(sum_data, f, ensure_ascii=False, indent=2)
-
-    # 8) miss 리스트 저장
     miss_path = SEC_DIR / "_item1_miss_list.json"
     with open(miss_path, "w", encoding="utf-8") as f:
         json.dump(miss_list, f, ensure_ascii=False, indent=2)
